@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f2f1;
+}
+
+header {
+    color: white;
+    position: relative;
+    height: 70vh;
+    background: center 50% / cover no-repeat;
+}
+
+#home {
+    background-image: url(../images/pexels-murat-gokce.jpg);
+}
+
+.header-border {
+    background: url(../images/grunge-border.png) center 0 / cover no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 99998;
+}
+
+.desaturate {
+    filter: grayscale(0.2)
+}
