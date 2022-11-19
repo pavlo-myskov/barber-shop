@@ -173,3 +173,17 @@ h1 {
     justify-content: space-around;
     margin: 0 3rem;
 }
+
+.servises-content div {
+    padding: 5px;
+}
+
+.servises-content ul {
+    margin: 20px;
+    line-height: 1.6rem;
+    list-style-type: none;
+}
+
+h3 {
+    text-align: center;
+}
