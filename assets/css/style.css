@@ -12,6 +12,7 @@ body {
     font-weight: 400;
 }
 
+/* HEADER */
 header {
     position: relative;
     height: 70vh;
@@ -28,7 +29,7 @@ header::before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    filter: saturate(0.3) contrast(0.9) brightness(0.8);
+    filter: saturate(0.7) contrast(0.9) brightness(0.8);
 }
 
 .header-border {
@@ -68,6 +69,8 @@ h1 {
     color: #010101;
 }
 
+/* NAVIGATION BAR */
+
 /* brush-stroke */
 .brush-stroke {
     margin: 0;
@@ -89,7 +92,8 @@ h1 {
 
 /* logo */
 .logo-image {
-    height: 3rem;
+    height: 2.7rem;
+    width: 6rem;
 }
 
 /* menu list */
@@ -103,7 +107,7 @@ h1 {
 
 .menu-list li a {
     color: #c0a364;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -113,11 +117,12 @@ h1 {
 
 /* book now */
 #book-now {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #book-now a {
     color: #c9613b;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
