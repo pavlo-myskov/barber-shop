@@ -133,3 +133,29 @@ h1 {
 #book-now a:hover {
     color: #f87d51;
 }
+
+/* SERVICES */
+.servises-container {
+    position: relative;
+    color: whitesmoke;
+    background: url(../images/pexels-nikolaos-dimou.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4.5rem 0;
+}
+
+.servises-container .grunge-border {
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.servises-container h2 {
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.servises-content {
+    display: flex;
+    justify-content: space-around;
+}
