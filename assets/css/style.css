@@ -143,6 +143,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4.5rem 0;
+    font-size: 1.1rem;
 }
 
 .servises-container .grunge-border {
@@ -151,11 +152,24 @@ h1 {
 }
 
 .servises-container h2 {
+    display: inline-block;
     padding-left: 4rem;
     padding-bottom: 2rem;
+    font-size: 2rem;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
+    letter-spacing: 4px;
+}
+
+#stroke {
+    display: inline-block;
+    content: url(../images/stroke.png);
+    margin-left: 10px;
+    width: 180px;
+    height: 20px
 }
 
 .servises-content {
     display: flex;
     justify-content: space-around;
+    margin: 0 3rem;
 }
