@@ -38,7 +38,7 @@ header::before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    filter: saturate(0.7) contrast(0.9) brightness(0.8);
+    filter: grayscale(60%) contrast(0.9) brightness(0.7);
 }
 
 header .grunge-border {
@@ -141,12 +141,20 @@ h1 {
 .servises-container {
     position: relative;
     color: whitesmoke;
+}
+
+.servises-container::before {
+    content: "";
+    position: absolute;
     background: url(../images/pexels-nikolaos-dimou.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 4.5rem 0;
-    font-size: 1.1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: blur(5px) grayscale(70%) sepia(30%) contrast(0.9) brightness(0.7);
 }
 
 .servises-container .grunge-border {
@@ -154,13 +162,19 @@ h1 {
     transform: rotate(180deg);
 }
 
+.service-heading, .servises-content {
+    position: relative;
+}
+
 .servises-container h2 {
     display: inline-block;
+    padding-top: 4rem;
     padding-left: 4rem;
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
-    letter-spacing: 4px;
+    letter-spacing: 8px;
+    font-weight: 700;
 }
 
 #stroke {
@@ -174,19 +188,23 @@ h1 {
 .servises-content {
     display: flex;
     justify-content: space-around;
-    margin: 0 3rem;
+    text-align: center;
+    margin: 0 2rem;
+    padding-bottom: 3rem;
 }
 
-.servises-content div {
-    padding: 5px;
+.servises-content h3 {
+    color: #AA7339;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.863);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 .servises-content ul {
+    font-weight: 400;
+    color: #f0d18d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.863);
     margin: 20px;
-    line-height: 1.6rem;
+    line-height: 2rem;
     list-style-type: none;
-}
-
-h3 {
-    text-align: center;
 }
