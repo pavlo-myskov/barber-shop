@@ -139,9 +139,12 @@ h1 {
 
 
 /* SERVICES */
+
+/* service container */
 .servises-container {
     position: relative;
     color: whitesmoke;
+    padding: 4rem 0;
 }
 
 .servises-container::before {
@@ -167,10 +170,10 @@ h1 {
     position: relative;
 }
 
+/* service header */
 .servises-container h2 {
     display: inline-block;
-    padding-top: 4rem;
-    padding-left: 4rem;
+    padding-left: 7%;
     padding-bottom: 2rem;
     font-size: 2.5rem;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
@@ -186,14 +189,15 @@ h1 {
     height: 20px
 }
 
+/* service content */
 .servises-content {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 0 2rem;
-    padding-bottom: 5rem;
 }
 
+/* list headers */
 .servises-content h3 {
     margin-bottom: 10px;
     color: #AA7339;
@@ -206,14 +210,6 @@ h1 {
     border-bottom: 1px solid rgba(163, 163, 163, 0.776);
 }
 
-.servises-content ul {
-    font-weight: 400;
-    color: #f0d18d;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.863);
-    line-height: 2rem;
-    list-style-type: none;
-}
-
 .servises-content img {
     width: 2rem;
     margin-bottom: 1rem;
@@ -221,4 +217,13 @@ h1 {
 
 .servises-content a {
     text-decoration: none;
+}
+
+/* servise lists */
+.servises-content ul {
+    font-weight: 400;
+    color: #f0d18d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.863);
+    line-height: 2rem;
+    list-style-type: none;
 }
