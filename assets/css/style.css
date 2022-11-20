@@ -227,3 +227,35 @@ h1 {
     line-height: 2rem;
     list-style-type: none;
 }
+
+
+/* DETAIL SERVICE */
+
+.service-wraper {
+    display: flex;
+    align-items: center;
+}
+
+.service-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+}
+
+.service-text {
+    width: 50%;
+}
+
+.haircut-pic{
+    background-image: url(../images/pexels-thgusstavo-santana-hair.jpg);
+}
+
+.beard-pic {
+    background-image: url(../images/pexels-thgusstavo-santana-beard.jpg);
+    order: 1;
+}
+
+.shave-pic {
+    background-image: url(../images/pexels-thgusstavo-santana-shave.jpg);
+}
