@@ -231,6 +231,11 @@ h1 {
 
 /* DETAIL SERVICE */
 
+.detail-service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .service-wraper {
     display: flex;
     align-items: center;
@@ -249,13 +254,22 @@ h1 {
 
 .haircut-pic{
     background-image: url(../images/pexels-thgusstavo-santana-hair.jpg);
+    background-position-y: -12rem;
 }
 
 .beard-pic {
     background-image: url(../images/pexels-thgusstavo-santana-beard.jpg);
     order: 1;
+    background-position-y: -15rem;
 }
 
 .shave-pic {
     background-image: url(../images/pexels-thgusstavo-santana-shave.jpg);
+    background-position-y: -10rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .haircut-pic, .beard-pic, .shave-pic {
+        background-position: center;
+    }
 }
