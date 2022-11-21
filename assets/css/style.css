@@ -150,7 +150,7 @@ h1 {
 .servises-container::before {
     content: "";
     position: absolute;
-    background: url(../images/pexels-nikolaos-dimou.jpg) ;
+    background: url(../images/pexels-nikolaos-dimou.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,7 +253,18 @@ h1 {
 
 .service-text {
     width: 50%;
+    padding: 0 30px;
+    text-align: justify;
+}
 
+.service-text h2 {
+    color: #443030;
+}
+
+.service-text p {
+    padding: 20px 20px 0;
+    line-height: 140%;
+    color: #141513;
 }
 
 .haircut-pic{
