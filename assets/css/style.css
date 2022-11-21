@@ -140,6 +140,57 @@ header p {
     color: #f87d51;
 }
 
+/* gamburger navbar for 900px wide screen size and down*/
+#burger-input{
+    display: none;
+  }
+
+#burger-menu {
+    width: 50px;
+    height: 50px;
+    display: none;
+    background-color: #AA7339;
+}
+
+#burger-menu #side-navbar {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: -500px;
+    height: 100%;
+    background-color: #c4c2c0;
+    transition: 0.4s;
+    padding: 0px 20px;
+}
+
+#burger-menu ul {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#burger-menu li {
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+#burger-menu a {
+    color: #AA7339;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+#burger-menu a:hover {
+    text-decoration: underline;
+}
+
+#burger-input:checked + #burger-menu #side-navbar {
+    visibility: visible;
+    right: 0;
+}
+#burger-input:checked {
+    visibility: visible;
+    opacity: 0.4;
+}
 
 /* SERVICES */
 
@@ -409,8 +460,21 @@ footer a:hover {
 }
 
 /* For screens sizes from 900px wide and down */
-/* gamburger nav bar */
 @media screen and (max-width: 900px) {
+
+    /* navbar */
+    .menu-list {
+        display: none;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+    #burger-menu {
+        display: flex;
+      }
+
+    /* footer */
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -418,7 +482,6 @@ footer a:hover {
     .footer-container > div {
         padding: 20px 0;
     }
-
     footer h3 {
         padding-bottom: 5px;
     }
