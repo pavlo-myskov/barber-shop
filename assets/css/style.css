@@ -234,11 +234,13 @@ h1 {
 .detail-service-container {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .service-wraper {
     display: flex;
     align-items: center;
+    background-color: rgba(151, 140, 124, 0.235);
 }
 
 .service-pic {
@@ -250,6 +252,7 @@ h1 {
 
 .service-text {
     width: 50%;
+
 }
 
 .haircut-pic{
@@ -271,5 +274,23 @@ h1 {
 @media screen and (max-width: 1200px) {
     .haircut-pic, .beard-pic, .shave-pic {
         background-position: center;
+    }
+    .detail-service-container .grunge-border.left, .grunge-border.right{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .detail-service-container .grunge-border.left {
+        top: 730px;
+        width: 1500px;
+        left: -735px;
+        transform: rotate(90deg);
+    }
+    .detail-service-container .grunge-border.right {
+        top: 730px;
+        width: 1500px;
+        right: -735px;
+        transform: rotate(-90deg);
     }
 }
