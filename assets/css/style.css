@@ -243,28 +243,13 @@ h1 {
     background-color: rgba(151, 140, 124, 0.235);
 }
 
+/* picture */
 .service-pic {
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
     height: 500px;
     filter: grayscale(40%) sepia(10%);
-}
-
-.service-text {
-    width: 50%;
-    padding: 0 30px;
-    text-align: justify;
-}
-
-.service-text h2 {
-    color: #443030;
-}
-
-.service-text p {
-    padding: 20px 20px 0;
-    line-height: 140%;
-    color: #141513;
 }
 
 .haircut-pic{
@@ -283,6 +268,33 @@ h1 {
     background-position-y: -10rem;
 }
 
+/* text */
+.service-text {
+    width: 50%;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.service-text h2 {
+    color: #443030;
+}
+
+.service-text p {
+    padding: 20px 20px 0;
+    line-height: 140%;
+    color: #141513;
+}
+
+.service-text a {
+    text-decoration: none;
+    color: #AA7339;
+    font-weight: bold;
+}
+
+.service-text a:hover {
+    text-decoration: underline 1px #141513;
+}
+
 @media screen and (max-width: 1200px) {
     .haircut-pic, .beard-pic, .shave-pic {
         background-position: center;
@@ -292,6 +304,7 @@ h1 {
     }
 }
 
+/* detail service grunge border */
 @media screen and (min-width: 1200px) {
     .detail-service-container .grunge-border.left {
         top: 730px;
