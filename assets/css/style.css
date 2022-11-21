@@ -346,20 +346,6 @@ footer p {
     font-size: 19px;
 }
 
-.address{
-    padding-bottom: 10px;
-    line-height: 25px;
-}
-
-.opening-times p{
-    line-height:50px;
-}
-
-.copyright {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
 footer a {
     text-decoration: 1px underline;
     color: inherit;
@@ -367,6 +353,35 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
+}
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* visit us */
+.visit-us {
+    position: relative;
+}
+
+.address{
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.visit-us i, .visit-us .address {
+    display: inline-block;
+}
+
+.fas.fa-map-marker-alt {
+    position: absolute;
+    left: -20px;
+}
+
+/* opening times */
+.opening-times p{
+    line-height:50px;
 }
 
 /* find us */
@@ -382,17 +397,4 @@ footer a:hover {
 
 .find-us .facebook {
     padding: 0 40px;
-}
-
-.visit-us i, .visit-us .address {
-    display: inline-block;
-}
-
-.visit-us {
-    position: relative;
-}
-
-.fas.fa-map-marker-alt {
-    position: absolute;
-    left: -20px;
 }
