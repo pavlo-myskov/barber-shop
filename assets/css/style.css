@@ -29,6 +29,8 @@ body {
 header {
     position: relative;
     height: 70vh;
+    display: flex;
+    justify-content: center;
 }
 
 header::before {
@@ -52,26 +54,27 @@ header .grunge-border {
 h1 {
     color: #ffffff;
     position: absolute;
-    top: 10%;
-    margin: 0 10rem;
+    top: 15%;
+    max-width: 40rem;
+    /* margin: 0; */
     font-size: 3.5rem;
     font-weight: bold;
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
 }
 
-.header-text {
-    padding: 5px 20px 5px 10px;
+header p {
+    padding: 5px 30px 5px 10px;
     background-color: hsla(0, 0%, 100%, 0.642);
     position: absolute;
-    left: 40%;
+    right: 0;
+    max-width: 60%;
     bottom: 20%;
     text-align: left;
+
 }
 
-.header-text > p {
-    color: #010101;
-}
+
 
 /* NAVIGATION BAR */
 
