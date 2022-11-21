@@ -383,3 +383,16 @@ footer a:hover {
 .find-us .facebook {
     padding: 0 40px;
 }
+
+.visit-us i, .visit-us .address {
+    display: inline-block;
+}
+
+.visit-us {
+    position: relative;
+}
+
+.fas.fa-map-marker-alt {
+    position: absolute;
+    left: -20px;
+}
