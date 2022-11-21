@@ -144,7 +144,7 @@ h1 {
 .servises-container {
     position: relative;
     color: whitesmoke;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .servises-container::before {
@@ -248,6 +248,7 @@ h1 {
     background-repeat: no-repeat;
     width: 50%;
     height: 500px;
+    filter: grayscale(40%) sepia(10%);
 }
 
 .service-text {
