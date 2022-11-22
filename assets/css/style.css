@@ -242,7 +242,7 @@ header p {
     content: url(../images/stroke.png);
     margin-left: 10px;
     width: 180px;
-    height: 20px
+    height: 20px;
 }
 
 /* service content */
@@ -471,6 +471,9 @@ footer a:hover {
     .servises-container h2 {
         font-size: 2rem;
     }
+    #stroke {
+        height: 15px
+    }
     .servises-content h3, footer h3, #book-now {
         font-size: 1rem;
     }
@@ -491,6 +494,10 @@ footer a:hover {
         height: 50vh;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
     /* navbar */
     .menu-list {
         display: none;
@@ -502,6 +509,21 @@ footer a:hover {
     #burger-menu {
         display: flex;
       }
+
+    /* services */
+    .servises-container h2 {
+        font-size: 1.7rem;
+    }
+    #stroke {
+        width: 150px;
+        height: 10px;
+    }
+    .service-text h2 {
+        font-size: 1.1rem;
+    }
+    .servises-content img {
+        width: 1.8rem;
+    }
 
     /* footer */
     .footer-container {
@@ -519,6 +541,9 @@ footer a:hover {
     }
     .find-us li {
         padding: 10px 0;
+    }
+    .copyright {
+        font-size: 0.8rem;
     }
 }
 
