@@ -451,11 +451,28 @@ footer a:hover {
     }
 }
 
-/* For screens sizes from 1020px wide and down */
-/* nav bar */
-@media screen and (max-width: 1024px) {
-    .menu-list li a {
+/* For screens sizes from 1050px wide and down */
+@media screen and (max-width: 1050px) {
+    h1 {
+        top: 20%;
+    }
+    .menu-list li a, .servises-content li, .service-text p, .copyright {
         font-size: 0.9rem;
+    }
+    .servises-container h2 {
+        font-size: 2rem;
+    }
+    .servises-content h3, footer h3 {
+        font-size: 1rem;
+    }
+    .service-text h2 {
+        font-size: 1.3rem;
+    }
+    .address, .address p, .p-number, .opening-times p {
+        font-size: 0.8rem;
+    }
+    .find-us a{
+        font-size: 1.5rem;
     }
 }
 
