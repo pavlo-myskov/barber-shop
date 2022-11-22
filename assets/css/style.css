@@ -28,7 +28,7 @@ body {
 /* HEADER */
 header {
     position: relative;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -51,26 +51,29 @@ header .grunge-border {
     bottom: 0;
 }
 
-h1 {
-    color: #ffffff;
-    position: absolute;
-    top: 15%;
-    max-width: 40rem;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 5px;
-    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+.header-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 5;
 }
 
-header p {
+h1 {
+    color: #ffffff;
+    padding: 0 30px;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    z-index: 5;
+}
+
+.header-text p {
     padding: 5px 30px 5px 10px;
     background-color: hsla(0, 0%, 100%, 0.642);
-    position: absolute;
-    right: 0;
     max-width: 60%;
-    bottom: 20%;
-    text-align: left;
-
+    align-self: flex-end;
+    z-index: 5;
 }
 
 
@@ -424,8 +427,7 @@ footer a:hover {
 
 /* MEDIA QUERIES */
 
-/* For large screens sizes from 1200px wide and up */
-
+/* For large screens sizes from 1200px wide and UP */
 /* detail service grunge border */
 @media screen and (min-width: 1200px) {
     .detail-service-container .grunge-border.left {
@@ -442,6 +444,7 @@ footer a:hover {
     }
 }
 
+/* For large screens sizes from 1200px wide and DOWN */
 @media screen and (max-width: 1200px) {
     .menu-list li a {
         font-size: 1.1rem;
@@ -461,9 +464,6 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-    h1 {
-        top: 20%;
-    }
     .menu-list li a, .servises-content li, .service-text p, .copyright {
         font-size: 0.9rem;
     }
@@ -493,10 +493,6 @@ footer a:hover {
 
 /* For screens sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
-    header {
-        height: 50vh;
-    }
-
     h1 {
         font-size: 3rem;
     }
@@ -554,10 +550,10 @@ footer a:hover {
 @media screen and (max-width: 800px) {
     /* header */
     h1 {
-        top: 15%;
         font-size: 2.5rem;
     }
-    header p {
+    .header-text p {
+        max-width: 70%;
         padding: 5px 20px 5px 10px;
     }
 
