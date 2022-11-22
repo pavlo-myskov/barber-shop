@@ -74,7 +74,6 @@ header p {
 }
 
 
-
 /* NAVIGATION BAR */
 
 /* brush-stroke */
@@ -552,8 +551,17 @@ footer a:hover {
 }
 
 /* For screens sizes from 800px wide and down */
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .servises-content {
         flex-direction: column;
+        align-items: center;
     }
-} */
+    .servises-content > div {
+        width: 10rem;
+        padding: 20px 0px 5px;
+
+    }
+    .servises-content ul {
+        border-bottom: #AA7339 3px groove;
+    }
+}
