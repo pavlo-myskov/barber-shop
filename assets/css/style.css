@@ -93,6 +93,7 @@ header p {
     background-color: #f2f2f2;
     position: sticky;
     top: 0;
+    height: 4rem;
     color: #c0a364;
     display: flex;
     justify-content: space-around;
@@ -102,6 +103,8 @@ header p {
 
 /* logo */
 .logo-image {
+    position: relative;
+    top: 5px;
     height: 3rem;
     width: 6rem;
 }
@@ -441,8 +444,15 @@ footer a:hover {
     }
 }
 
-/* detail service pictures */
 @media screen and (max-width: 1200px) {
+    .menu-list li a {
+        font-size: 1.1rem;
+    }
+    .menu-list .brush-stroke {
+        background-size: 100% 40px;
+    }
+
+    /* detail service pictures */
     .haircut-pic, .beard-pic, .shave-pic {
         background-position: center;
     }
@@ -462,7 +472,7 @@ footer a:hover {
     .servises-container h2 {
         font-size: 2rem;
     }
-    .servises-content h3, footer h3 {
+    .servises-content h3, footer h3, #book-now {
         font-size: 1rem;
     }
     .service-text h2 {
