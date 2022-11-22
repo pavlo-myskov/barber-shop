@@ -565,3 +565,37 @@ footer a:hover {
         border-bottom: #AA7339 3px groove;
     }
 }
+
+/* For screens sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
+    /* header */
+    h1 {
+        top: 15%;
+        font-size: 2.5rem;
+    }
+    header p {
+        padding: 5px 20px 5px 10px;
+    }
+
+    /* deatail services */
+    .detail-service-container .service-wraper{
+        display: flex;
+        flex-direction: column;
+    }
+    .haircut-pic{
+        order: 1;
+    }
+    .shave-pic {
+        order: 6;
+    }
+    .service-pic, .service-text {
+        width: 100%;
+    }
+
+    .service-text {
+        padding: 2.1rem 1rem 1.3rem;
+    }
+    .service-text p {
+        line-height: 30px;
+    }
+}
