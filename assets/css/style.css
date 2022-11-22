@@ -468,6 +468,10 @@ footer a:hover {
     .menu-list li a, .servises-content li, .service-text p, .copyright {
         font-size: 0.9rem;
     }
+    #book-now.brush-stroke {
+        background-size: 100% 40px;
+    }
+
     .servises-container h2 {
         font-size: 2rem;
     }
