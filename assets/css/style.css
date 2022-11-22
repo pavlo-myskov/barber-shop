@@ -596,3 +596,67 @@ footer a:hover {
         line-height: 30px;
     }
 }
+
+/* For screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    /* header */
+    h1 {
+        font-size: 1.6rem;
+    }
+    .header-text p {
+        max-width: 80%;
+        font-size: 0.80em;
+    }
+
+    /* navbar */
+    .navbar {
+        padding: 0;
+        justify-content: space-around;
+    }
+    .logo-image {
+        height: 2.6rem;
+        width: 4.5rem;
+    }
+    #book-now {
+        font-size: 0.8rem;
+    }
+    #book-now.brush-stroke {
+        background-size: 90% 35px;
+    }
+
+    /* services */
+    .service-heading #stroke {
+        position: relative;
+        top: -5px;
+    }
+    #stroke {
+        width: 100px;
+        height: 7px;
+    }
+
+    /* detail services */
+    .service-text h2{
+        padding: 0 20px 10px;
+    }
+    .service-text p {
+        padding: 0;
+    }
+}
+
+/* For screens sizes from 360px wide and down */
+@media screen and (max-width: 360px) {
+    .service-heading #stroke {
+        display: none;
+    }
+}
+
+/* For screens sizes from 300px wide and down */
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .header-text p {
+        font-size: 0.70em;
+    }
+}
