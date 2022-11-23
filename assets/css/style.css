@@ -484,8 +484,11 @@ footer a:hover {
     .menu-list li a, .servises-content li, .service-text p, .copyright {
         font-size: 0.9rem;
     }
+    .menu-list .brush-stroke {
+        background-size: 98% 32px;
+    }
     #book-now.brush-stroke {
-        background-size: 100% 40px;
+        background-size: 100% 35px;
     }
 
     .servises-container h2 {
@@ -633,13 +636,17 @@ footer a:hover {
     }
     .logo-image {
         height: 2.6rem;
-        width: 4.5rem;
+        width: 4.6rem;
     }
     #book-now {
         font-size: 0.8rem;
     }
     #book-now.brush-stroke {
-        background-size: 90% 35px;
+        background-size: 90% 27px;
+    }
+    #burger-menu {
+        width: 40px;
+        height: 40px;
     }
 
     /* services */
