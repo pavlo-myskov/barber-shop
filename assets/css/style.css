@@ -708,14 +708,26 @@ footer a:hover {
 }
 
 /* price table */
-.price-container th, td {
+table {
+    border-collapse: collapse;
+  }
+
+.price tr {
+    border-bottom: 0.2px dotted rgb(154, 148, 148);
+}
+
+.price th, td {
     padding-top: 20px;
     color: white;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.863);
 }
 
-.price-container th {
+.price th {
     padding-right: 40px;
     text-align: left;
     font-weight: 400;
+}
+
+.price td {
+    text-align: right;
 }
