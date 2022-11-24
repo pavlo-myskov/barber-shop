@@ -26,14 +26,14 @@ body {
 }
 
 /* HEADER */
-header {
+.main-header {
     position: relative;
     height: 70vh;
     display: flex;
     justify-content: center;
 }
 
-header::before {
+.main-header::before {
     content: "";
     background-image: url(../images/pexels-murat-gokce.jpg);
     background-position: center;
@@ -47,7 +47,7 @@ header::before {
     filter: grayscale(60%) contrast(0.9) brightness(0.7);
 }
 
-header .grunge-border {
+.main-header .grunge-border {
     bottom: 0;
 }
 
