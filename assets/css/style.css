@@ -250,7 +250,7 @@ h1 {
     display: inline-block;
     padding-left: 7%;
     padding-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
     letter-spacing: 8px;
     font-weight: 700;
@@ -481,7 +481,7 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-    .menu-list li a, .servises-content li, .service-text p, .copyright {
+    .menu-list li a, .servises-content li, .price tr, .service-text p, .copyright {
         font-size: 0.9rem;
     }
     .menu-list .brush-stroke {
@@ -492,7 +492,7 @@ footer a:hover {
     }
 
     .servises-container h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     #stroke {
         height: 15px
@@ -530,9 +530,6 @@ footer a:hover {
       }
 
     /* services */
-    .servises-container h2 {
-        font-size: 1.7rem;
-    }
     #stroke {
         width: 150px;
         height: 10px;
@@ -578,6 +575,12 @@ footer a:hover {
     }
 
     /* service area */
+    .servises-container h2 {
+        font-size: 1.5rem;
+    }
+    .servises-content h3 {
+        font-size: 0.9rem;
+    }
     .servises-content {
         flex-direction: column;
         align-items: center;
