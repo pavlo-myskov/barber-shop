@@ -281,7 +281,7 @@ h1 {
     letter-spacing: 1.2px;
 }
 
-.servises-content h3:hover {
+#services h3:hover {
     border-bottom: 1px solid rgba(163, 163, 163, 0.776);
 }
 
@@ -687,14 +687,32 @@ footer a:hover {
 
 
 /* BOOK NOW */
-.servises-container.price::before {
+
+/* PRICE */
+.servises-container.price-container::before {
     background-image: url(../images/pexels-moises-delgado.jpg);
-    background-size: cover;
     background-position: top center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    filter: blur(8px) grayscale(60%)  contrast(0.9) brightness(0.7);
 }
 
-.price h2 {
+.price-container h2 {
     position: relative;
+}
+
+.price h3 {
+    color: #f0d18d;
+}
+
+/* price table */
+.price-container th, td {
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.863);
+}
+
+.price-container th {
+    padding-right: 40px;
+    text-align: left;
+    font-weight: 400;
 }
