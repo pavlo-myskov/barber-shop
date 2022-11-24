@@ -684,3 +684,17 @@ footer a:hover {
         font-size: 0.70em;
     }
 }
+
+
+/* BOOK NOW */
+.servises-container.price::before {
+    background-image: url(../images/pexels-moises-delgado.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.price h2 {
+    position: relative;
+}
