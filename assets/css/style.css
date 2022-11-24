@@ -459,6 +459,10 @@ footer a:hover {
         right: -735px;
         transform: rotate(-90deg);
     }
+    /* table width */
+    .price table {
+        margin: 0 5rem;
+    }
 }
 
 /* For large screens sizes from 1200px wide and DOWN */
@@ -476,6 +480,11 @@ footer a:hover {
     }
     .detail-service-container .grunge-border.left, .grunge-border.right{
         display: none;
+    }
+
+    /* table width */
+    .price table {
+        margin: 0 3rem;
     }
 }
 
@@ -508,6 +517,11 @@ footer a:hover {
     }
     .find-us a{
         font-size: 1.5rem;
+    }
+
+    /* table width */
+    .price table {
+        margin: 0 2rem;
     }
 }
 
@@ -561,6 +575,11 @@ footer a:hover {
     .copyright {
         font-size: 0.8rem;
     }
+
+    /* table width */
+    .price table {
+        margin: 0 1rem;
+    }
 }
 
 /* For screens sizes from 800px wide and down */
@@ -592,6 +611,17 @@ footer a:hover {
     }
     .servises-content ul {
         border-bottom: #AA7339 3px groove;
+    }
+
+    /* price table */
+    /* width */
+    .servises-content.price {
+        margin: 0 3rem;
+    }
+
+    /* column padding */
+    .price table:first-child {
+        margin-bottom: 3rem;
     }
 }
 
@@ -669,12 +699,31 @@ footer a:hover {
     .service-text p {
         padding: 0;
     }
+
+    /* price container*/
+    .price-container h2 {
+        font-size: 1.4rem;
+        letter-spacing: 5px;
+    }
+    /* width */
+    .servises-content.price {
+        margin: 0 2rem;
+    }
+    .price table td {
+        width: 30%;
+    }
 }
 
 /* For screens sizes from 360px wide and down */
 @media screen and (max-width: 360px) {
     .service-heading #stroke {
         display: none;
+    }
+
+    /* price table */
+    .price-container h2 {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
     }
 }
 
@@ -708,8 +757,9 @@ footer a:hover {
 }
 
 /* price table */
-table {
+.price table {
     border-collapse: collapse;
+    width: 100%;
   }
 
 .price tr {
@@ -723,7 +773,7 @@ table {
 }
 
 .price th {
-    padding-right: 40px;
+    padding-right: 20px;
     text-align: left;
     font-weight: 400;
 }
