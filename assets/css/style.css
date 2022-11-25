@@ -792,7 +792,10 @@ footer a:hover {
     width: 40%;
 }
 
-/* appoitment */
+
+/* Appoitment */
+
+/* container */
 .appoitment-container {
     background-color: rgba(151, 140, 124, 0.235);
     display: flex;
@@ -808,8 +811,16 @@ footer a:hover {
 
 .picture-container img {
     width: 100%;
+    filter: grayscale(40%) sepia(20%);
 }
 
+/* header */
+.appoitment-form h2 {
+    padding: 2em 2em 1em;
+    color: #443030;
+}
+
+/* main data section */
 .data {
     display: flex;
     flex-direction: column;
@@ -818,4 +829,10 @@ footer a:hover {
 .data div{
     display: flex;
     justify-content: space-evenly;
+}
+
+.data input {
+    width: 40%;
+    margin: 5% 0;
+    border: none;
 }
