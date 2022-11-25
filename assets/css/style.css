@@ -573,6 +573,10 @@ footer a:hover {
     }
 
     /* price table */
+    .servises-content.price {
+        flex-direction: column;
+        align-items: center;
+    }
     /* width */
     .servises-content.price {
         margin: 0 3rem;
@@ -713,9 +717,6 @@ footer a:hover {
     .servises-content.price {
         margin: 0 2rem;
     }
-    .price table td {
-        width: 30%;
-    }
 }
 
 /* For screens sizes from 360px wide and down */
@@ -777,11 +778,16 @@ footer a:hover {
 }
 
 .price th {
-    padding-right: 20px;
+    padding-right: 10px;
     text-align: left;
     font-weight: 400;
 }
 
 .price td {
     text-align: right;
+    white-space:nowrap;
+}
+.price td[data-content="by-agreement"] {
+    white-space: normal;
+    width: 40%;
 }
