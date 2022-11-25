@@ -380,7 +380,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 footer h3 {
@@ -555,27 +555,6 @@ footer a:hover {
         width: 1.8rem;
     }
 
-    /* footer */
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer-container > div {
-        padding: 20px 0;
-    }
-    footer h3 {
-        padding-bottom: 5px;
-    }
-    .opening-times p{
-        line-height: 30px;
-    }
-    .find-us li {
-        padding: 10px 0;
-    }
-    .copyright {
-        font-size: 0.8rem;
-    }
-
     /* table width */
     .price table {
         margin: 0 1rem;
@@ -593,6 +572,20 @@ footer a:hover {
         padding: 5px 20px 5px 10px;
     }
 
+    /* price table */
+    /* width */
+    .servises-content.price {
+        margin: 0 3rem;
+    }
+
+    /* column padding */
+    .price table:first-child {
+        margin-bottom: 3rem;
+    }
+}
+
+/* For screens sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
     /* service area */
     .servises-container h2 {
         font-size: 1.5rem;
@@ -613,20 +606,6 @@ footer a:hover {
         border-bottom: #AA7339 3px groove;
     }
 
-    /* price table */
-    /* width */
-    .servises-content.price {
-        margin: 0 3rem;
-    }
-
-    /* column padding */
-    .price table:first-child {
-        margin-bottom: 3rem;
-    }
-}
-
-/* For screens sizes from 750px wide and down */
-@media screen and (max-width: 750px) {
     /* deatail services */
     .detail-service-container .service-wraper{
         display: flex;
@@ -647,6 +626,31 @@ footer a:hover {
     }
     .service-text p {
         line-height: 30px;
+    }
+
+    /* footer */
+    footer {
+        padding: 0 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container > div {
+        padding: 20px 0;
+    }
+    footer h3 {
+        padding-bottom: 5px;
+    }
+    .opening-times p{
+        line-height: 30px;
+    }
+    .find-us li {
+        padding: 10px 0;
+    }
+    .copyright {
+        font-size: 0.8rem;
     }
 }
 
