@@ -791,3 +791,12 @@ footer a:hover {
     white-space: normal;
     width: 40%;
 }
+
+/* appoitment */
+
+
+
+.picture-container img, .form-container {
+    display: block;
+    width: 50%;
+}
