@@ -149,18 +149,39 @@
 
           <div class="data">
             <div>
-              <input type="text" placeholder="First Name">
-              <input type="text" placeholder="Last Name">
+              <div class="input-block">
+                <input type="text" id="f_name" name="f_name" placeholder="First Name" required>
+                <label for="f_name">First Name</label>
+              </div>
+
+              <div class="input-block">
+                <input type="text" id="l_name" name="l_name" placeholder="Last Name" required>
+                <label for="l_name">Last Name</label>
+              </div>
             </div>
 
             <div>
-              <input type="number" placeholder="Phone Number">
-              <input type="email" placeholder="Email">
+              <div class="input-block">
+                <input type="number" id="p_number" name="p_number" placeholder="Phone Number">
+                <label for="p_number">Phone Number</label>
+              </div>
+
+              <div class="input-block">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="email">Email</label>
+              </div>
             </div>
 
             <div>
-              <input type="date" placeholder="Date">
-              <input type="time" placeholder="Time">
+              <div class="input-block">
+                <input type="date" id="date" name="date" required>
+                <label for="date">Date</label>
+              </div>
+
+              <div class="input-block">
+                <input type="time" id="time" name="time" required>
+                <label for="time">Time</label>
+              </div>
             </div>
           </div>
 

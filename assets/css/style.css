@@ -818,9 +818,17 @@ footer a:hover {
 .appoitment-form h2 {
     padding: 2em 2em 1em;
     color: #443030;
+    font-size: min(max(16px, 4vw), 30px);
 }
 
 /* main data section */
+.input-block {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5% 0;
+}
+
 .data {
     display: flex;
     flex-direction: column;
@@ -832,7 +840,6 @@ footer a:hover {
 }
 
 .data input {
-    width: 40%;
-    margin: 5% 0;
     border: none;
+    border-bottom: 1px solid;
 }
