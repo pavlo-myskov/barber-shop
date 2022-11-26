@@ -793,7 +793,7 @@ footer a:hover {
 }
 
 
-/* Appoitment */
+/* APPOITMENT SECTION*/
 
 /* container */
 .appoitment-container {
@@ -814,6 +814,9 @@ footer a:hover {
     filter: grayscale(40%) sepia(20%);
 }
 
+
+/* FORM */
+
 /* header */
 .appoitment-form h2 {
     padding: 2em 2em 1em;
@@ -821,8 +824,9 @@ footer a:hover {
     font-size: min(max(16px, 4vw), 30px);
 }
 
-/* main data section */
+/* main data block */
 .input-block {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -839,7 +843,52 @@ footer a:hover {
     justify-content: space-evenly;
 }
 
+/* personal-info fields */
 .data input {
+    background: transparent;
+    font-size: 1.1rem;
+}
+
+.personal-info input {
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 2px dotted #443030;
+}
+
+.personal-info input::placeholder {
+    color: transparent;
+}
+
+.personal-info input:placeholder-shown ~ label {
+    top: -3px;
+    font-size: 1rem;
+    color: #797f80;
+    transition:  0.4s;
+  }
+
+.personal-info label {
+    position: absolute;
+    top: -25px;
+    font-size: 0.7rem;
+    color: #ab6d2a;
+}
+
+.personal-info label:hover {
+    cursor: text;
+}
+
+.personal-info input:focus {
+    outline: none;
+}
+
+.personal-info input:focus ~ label{
+    top: -25px;
+    font-size: 0.7rem;
+    color: #ab6d2a;
+    cursor: text;
+}
+
+/* datetime fields */
+.datetime input{
+    color: #797f80;
+    border-radius: 6px;
 }
