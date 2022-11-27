@@ -806,11 +806,14 @@ footer a:hover {
 }
 
 .picture-container {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.picture-container img {
-    width: 100%;
+.picture-container,  .picture-container img {
+    height: 39em;
+    flex: 1;
     filter: grayscale(40%) sepia(20%);
 }
 
@@ -819,7 +822,7 @@ footer a:hover {
 
 /* header */
 .appoitment-form h2 {
-    padding: 2em 2em 1em;
+    padding: 2em 2em 1.3em;
     color: #443030;
     font-size: min(max(16px, 4vw), 30px);
     letter-spacing: 1px;
@@ -831,7 +834,7 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 5% 0;
+    margin: 1.5em 0;
 }
 
 .data {
@@ -900,8 +903,6 @@ footer a:hover {
 }
 
 .service-selection-container h3 {
-    padding-bottom: 2em;
-    /* font-weight: 400; */
     font-size: 1.2em;
     color: #443030;
     letter-spacing: 1px;
@@ -910,6 +911,7 @@ footer a:hover {
 .service-selection-wraper {
     display: flex;
     justify-content: space-around;
+    padding: 2em 0 3em;
 }
 
 .checkbox-field input {
@@ -943,9 +945,7 @@ footer a:hover {
 /* submit button */
 .submit-button {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 180px;
 }
 
 .submit-button input {
