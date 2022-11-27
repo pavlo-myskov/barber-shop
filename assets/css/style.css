@@ -959,6 +959,21 @@ footer a:hover {
     .servises-content.price {
         margin: 0 2rem;
     }
+
+    /* form */
+    .appoitment-form h2 {
+        text-align: center;
+        padding: 3rem 0 1rem;
+    }
+    .data div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .service-selection-wraper, .submit-button {
+        font-size: 0.85em;
+    }
 }
 
 /* For screens sizes from 360px wide and down */
