@@ -442,6 +442,227 @@ footer a:hover {
 }
 
 
+/* ----- BOOK NOW ----- */
+
+/* PRICE */
+.servises-container.price-container::before {
+    background-image: url(../images/pexels-moises-delgado.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    filter: blur(8px) grayscale(60%)  contrast(0.9) brightness(0.7);
+}
+
+.price-container h2 {
+    position: relative;
+}
+
+.price h3 {
+    color: #f0d18d;
+}
+
+/* price table */
+.price table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.price tr {
+    border-bottom: 0.2px dotted rgb(154, 148, 148);
+}
+
+.price th, td {
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.863);
+}
+
+.price th {
+    padding-right: 10px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.price td {
+    text-align: right;
+    white-space:nowrap;
+}
+.price td[data-content="by-agreement"] {
+    white-space: normal;
+    width: 40%;
+}
+
+
+/* APPOITMENT SECTION*/
+
+/* container */
+.appoitment-container {
+    background-color: rgba(151, 140, 124, 0.235);
+    display: flex;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.picture-container,  .picture-container img {
+    height: 39em;
+    flex: 1;
+    filter: grayscale(40%) sepia(20%);
+}
+
+
+/* FORM */
+
+/* header */
+.appoitment-form h2 {
+    padding: 2em 2em 1.3em;
+    color: #443030;
+    font-size: min(max(16px, 4vw), 30px);
+    letter-spacing: 1px;
+}
+
+/* main data block */
+.input-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 1.5em 0;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* personal-info fields */
+.data input {
+    background: transparent;
+    font-size: 1.1rem;
+}
+
+.personal-info input {
+    border: none;
+    border-bottom: 2px dotted #443030;
+}
+
+.personal-info input::placeholder {
+    color: transparent;
+}
+
+.personal-info input:placeholder-shown ~ label {
+    top: -3px;
+    font-size: 1rem;
+    color: #797f80;
+    transition:  0.4s;
+  }
+
+.personal-info label {
+    position: absolute;
+    top: -25px;
+    font-size: 0.7rem;
+    color: #ab6d2a;
+}
+
+.personal-info label:hover {
+    cursor: text;
+}
+
+.personal-info input:focus {
+    outline: none;
+}
+
+.personal-info input:focus ~ label{
+    top: -25px;
+    font-size: 0.7rem;
+    color: #ab6d2a;
+    cursor: text;
+}
+
+/* datetime fields */
+.datetime input{
+    color: #797f80;
+    border-radius: 6px;
+}
+
+/* service selection */
+.service-selection-container {
+    padding: 1.8em 2em 0;
+}
+
+.service-selection-container h3 {
+    font-size: 1.2em;
+    color: #443030;
+    letter-spacing: 1px;
+}
+
+.service-selection-wraper {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0 3em;
+}
+
+.checkbox-field input {
+    display: none;
+}
+
+.checkbox-field label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.checkbox-field img {
+    width: 50px;
+    padding-bottom: 1em;
+}
+
+.checkbox-field label:hover {
+    cursor: pointer;
+    border: 0.5px dotted;
+}
+
+.checkbox-field input[type="checkbox"]:not(:checked) ~ label{
+    filter: grayscale(0.8);
+    color: #797f80;
+}
+
+/* submit button */
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button input {
+    padding: 1em 3em;
+    border: none;
+    background-color: rgb(182, 160, 131);
+}
+
+.submit-button input:hover {
+    cursor: pointer;
+    border: 1.5px solid;
+}
+
+.submit-button input:checked {
+    background-color: rgb(218, 155, 73);
+}
+
+
 /* MEDIA QUERIES */
 
 /* For large screens sizes from 1200px wide and UP */
@@ -740,225 +961,4 @@ footer a:hover {
     .header-text p {
         font-size: 0.70em;
     }
-}
-
-
-/* BOOK NOW */
-
-/* PRICE */
-.servises-container.price-container::before {
-    background-image: url(../images/pexels-moises-delgado.jpg);
-    background-position: top center;
-    background-attachment: fixed;
-    filter: blur(8px) grayscale(60%)  contrast(0.9) brightness(0.7);
-}
-
-.price-container h2 {
-    position: relative;
-}
-
-.price h3 {
-    color: #f0d18d;
-}
-
-/* price table */
-.price table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-.price tr {
-    border-bottom: 0.2px dotted rgb(154, 148, 148);
-}
-
-.price th, td {
-    padding-top: 20px;
-    color: white;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.863);
-}
-
-.price th {
-    padding-right: 10px;
-    text-align: left;
-    font-weight: 400;
-}
-
-.price td {
-    text-align: right;
-    white-space:nowrap;
-}
-.price td[data-content="by-agreement"] {
-    white-space: normal;
-    width: 40%;
-}
-
-
-/* APPOITMENT SECTION*/
-
-/* container */
-.appoitment-container {
-    background-color: rgba(151, 140, 124, 0.235);
-    display: flex;
-}
-
-.form-container {
-    width: 50%;
-}
-
-.picture-container {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.picture-container,  .picture-container img {
-    height: 39em;
-    flex: 1;
-    filter: grayscale(40%) sepia(20%);
-}
-
-
-/* FORM */
-
-/* header */
-.appoitment-form h2 {
-    padding: 2em 2em 1.3em;
-    color: #443030;
-    font-size: min(max(16px, 4vw), 30px);
-    letter-spacing: 1px;
-}
-
-/* main data block */
-.input-block {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 1.5em 0;
-}
-
-.data {
-    display: flex;
-    flex-direction: column;
-}
-
-.data div{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* personal-info fields */
-.data input {
-    background: transparent;
-    font-size: 1.1rem;
-}
-
-.personal-info input {
-    border: none;
-    border-bottom: 2px dotted #443030;
-}
-
-.personal-info input::placeholder {
-    color: transparent;
-}
-
-.personal-info input:placeholder-shown ~ label {
-    top: -3px;
-    font-size: 1rem;
-    color: #797f80;
-    transition:  0.4s;
-  }
-
-.personal-info label {
-    position: absolute;
-    top: -25px;
-    font-size: 0.7rem;
-    color: #ab6d2a;
-}
-
-.personal-info label:hover {
-    cursor: text;
-}
-
-.personal-info input:focus {
-    outline: none;
-}
-
-.personal-info input:focus ~ label{
-    top: -25px;
-    font-size: 0.7rem;
-    color: #ab6d2a;
-    cursor: text;
-}
-
-/* datetime fields */
-.datetime input{
-    color: #797f80;
-    border-radius: 6px;
-}
-
-/* service selection */
-.service-selection-container {
-    padding: 1.8em 2em 0;
-}
-
-.service-selection-container h3 {
-    font-size: 1.2em;
-    color: #443030;
-    letter-spacing: 1px;
-}
-
-.service-selection-wraper {
-    display: flex;
-    justify-content: space-around;
-    padding: 2em 0 3em;
-}
-
-.checkbox-field input {
-    display: none;
-}
-
-.checkbox-field label{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-}
-
-.checkbox-field img {
-    width: 50px;
-    padding-bottom: 1em;
-}
-
-.checkbox-field label:hover {
-    cursor: pointer;
-    border: 0.5px dotted;
-}
-
-.checkbox-field input[type="checkbox"]:not(:checked) ~ label{
-    filter: grayscale(0.8);
-    color: #797f80;
-}
-
-/* submit button */
-.submit-button {
-    display: flex;
-    justify-content: center;
-}
-
-.submit-button input {
-    padding: 1em 3em;
-    border: none;
-    background-color: rgb(182, 160, 131);
-}
-
-.submit-button input:hover {
-    cursor: pointer;
-    border: 1.5px solid;
-}
-
-.submit-button input:checked {
-    background-color: rgb(218, 155, 73);
 }
