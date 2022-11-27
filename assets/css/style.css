@@ -822,6 +822,7 @@ footer a:hover {
     padding: 2em 2em 1em;
     color: #443030;
     font-size: min(max(16px, 4vw), 30px);
+    letter-spacing: 1px;
 }
 
 /* main data block */
@@ -891,4 +892,50 @@ footer a:hover {
 .datetime input{
     color: #797f80;
     border-radius: 6px;
+}
+
+/* service selection */
+.service-selection-container {
+    padding: 1.8em 2em 0;
+}
+
+.service-selection-container h3 {
+    padding-bottom: 2em;
+    /* font-weight: 400; */
+    font-size: 1.2em;
+    color: #443030;
+    letter-spacing: 1px;
+}
+
+.service-selection-wraper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox-field input {
+    display: none;
+}
+
+.checkbox-field label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.checkbox-field img {
+    width: 50px;
+    padding-bottom: 1em;
+}
+
+.checkbox-field label:hover {
+    cursor: pointer;
+    border: 0.5px dotted;
+}
+
+.checkbox-field input[type="checkbox"]:not(:checked) ~ label{
+    filter: grayscale(0.8);
+    color: #797f80;
 }
