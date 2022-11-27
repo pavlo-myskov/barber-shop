@@ -939,3 +939,26 @@ footer a:hover {
     filter: grayscale(0.8);
     color: #797f80;
 }
+
+/* submit button */
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+
+.submit-button input {
+    padding: 1em 3em;
+    border: none;
+    background-color: rgb(182, 160, 131);
+}
+
+.submit-button input:hover {
+    cursor: pointer;
+    border: 1.5px solid;
+}
+
+.submit-button input:checked {
+    background-color: rgb(218, 155, 73);
+}
