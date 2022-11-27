@@ -523,7 +523,7 @@ footer a:hover {
 .appoitment-form h2 {
     padding: 2em 2em 1.3em;
     color: #443030;
-    font-size: min(max(16px, 4vw), 30px);
+    font-size: min(max(25px, 5vw), 30px);
     letter-spacing: 1px;
 }
 
@@ -743,6 +743,20 @@ footer a:hover {
     /* table width */
     .price table {
         margin: 0 2rem;
+    }
+
+    /* APPOITMENT SECTION*/
+    .picture-container {
+        display: none;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .service-selection-container h3 {
+        padding-left: 1rem;
+    }
+    .submit-button {
+        padding-bottom: 3em;
     }
 }
 
