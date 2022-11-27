@@ -525,6 +525,7 @@ footer a:hover {
     color: #443030;
     font-size: min(max(25px, 5vw), 30px);
     letter-spacing: 1px;
+    font-size: 1.4em;
 }
 
 /* main data block */
@@ -549,7 +550,7 @@ footer a:hover {
 /* personal-info fields */
 .data input {
     background: transparent;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 .personal-info input {
@@ -563,7 +564,7 @@ footer a:hover {
 
 .personal-info input:placeholder-shown ~ label {
     top: -3px;
-    font-size: 1rem;
+    font-size: 1em;
     color: #797f80;
     transition:  0.4s;
   }
@@ -571,7 +572,7 @@ footer a:hover {
 .personal-info label {
     position: absolute;
     top: -25px;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     color: #ab6d2a;
 }
 
@@ -585,7 +586,7 @@ footer a:hover {
 
 .personal-info input:focus ~ label{
     top: -25px;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     color: #ab6d2a;
     cursor: text;
 }
@@ -623,11 +624,11 @@ footer a:hover {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 .checkbox-field img {
-    width: 50px;
+    width: 3.1em;
     padding-bottom: 1em;
 }
 
@@ -651,6 +652,7 @@ footer a:hover {
     padding: 1em 3em;
     border: none;
     background-color: rgb(182, 160, 131);
+    font-size: 0.9em;
 }
 
 .submit-button input:hover {
@@ -890,6 +892,11 @@ footer a:hover {
     }
     .copyright {
         font-size: 0.8rem;
+    }
+
+    /* appoitment-container */
+    .appoitment-container {
+        font-size: 0.95em;
     }
 }
 
