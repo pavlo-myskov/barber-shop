@@ -664,23 +664,49 @@ footer a:hover {
 }
 
 
+/* MAP */
+.map {
+    filter: grayscale(40%) contrast(0.9);
+    display: flex;
+}
+
+.map iframe {
+    border: none;
+    width: 100%;
+    height: 300px;
+}
+
 /* MEDIA QUERIES */
 
 /* For large screens sizes from 1200px wide and UP */
-/* detail service grunge border */
 @media screen and (min-width: 1200px) {
-    .detail-service-container .grunge-border.left {
+    /* SIDE GRUNGE Border */
+    /* detail service grunge border */
+    .detail-service-container .grunge-border {
         top: 730px;
         width: 1500px;
+    }
+    .detail-service-container .grunge-border.left {
         left: -735px;
         transform: rotate(90deg);
     }
     .detail-service-container .grunge-border.right {
-        top: 730px;
-        width: 1500px;
         right: -735px;
         transform: rotate(-90deg);
     }
+
+    /* appoitment grunge border */
+    .appoitment-container .grunge-border {
+        top: 370px;
+        width: 780px;
+    }
+    .appoitment-container .grunge-border.left{
+        left: -370px;
+    }
+    .appoitment-container .grunge-border.right{
+        right: -370px;
+    }
+
     /* table width */
     .price table {
         margin: 0 5rem;
