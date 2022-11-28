@@ -211,6 +211,7 @@ h1 {
   color: #aa7339;
   font-size: 1.2rem;
   text-decoration: none;
+  display: block;
 }
 
 #burger-input:checked + #burger-menu #side-navbar {
