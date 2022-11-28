@@ -185,7 +185,7 @@ h1 {
   opacity: 98%;
 }
 
-#burger-menu #side-navbar {
+#burger-menu #dropdown-navbar {
   visibility: hidden;
   position: fixed;
   top: -300px;
@@ -214,7 +214,7 @@ h1 {
   display: block;
 }
 
-#burger-input:checked + #burger-menu #side-navbar {
+#burger-input:checked + #burger-menu #dropdown-navbar {
   visibility: visible;
   top: 0;
 }
