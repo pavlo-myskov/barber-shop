@@ -230,6 +230,7 @@ h1 {
   position: relative;
   color: whitesmoke;
   padding: 5rem 0;
+  overflow: hidden;
 }
 
 .servises-container::before {
@@ -319,6 +320,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .service-wraper {
