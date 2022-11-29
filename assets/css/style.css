@@ -6,10 +6,41 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 20px;
+}
+
 body {
   background-color: #f2f2f2;
   font-family: "Arvo", serif;
   font-weight: 400;
+}
+
+h1 {
+  color: #ffffff;
+  padding: 0 30px;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+  z-index: 5;
+}
+
+h2 {
+  display: inline-block;
+  padding-left: 7%;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
+  letter-spacing: 6px;
+}
+
+.services-container h3 {
+  margin-bottom: 10px;
+  color: #aa7339;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.863);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 1.2em;
 }
 
 .text-center {
@@ -56,15 +87,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  z-index: 5;
-}
-
-h1 {
-  color: #ffffff;
-  padding: 0 30px;
-  font-size: 3.5rem;
-  letter-spacing: 5px;
-  text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
   z-index: 5;
 }
 
@@ -226,14 +248,14 @@ h1 {
 /* SERVICES */
 
 /* service container */
-.servises-container {
+.services-container {
   position: relative;
   color: whitesmoke;
   padding: 5rem 0;
   overflow: hidden;
 }
 
-.servises-container::before {
+.services-container::before {
   content: "";
   position: absolute;
   background: url(../images/pexels-nikolaos-dimou.jpg);
@@ -247,26 +269,16 @@ h1 {
   filter: blur(5px) grayscale(70%) sepia(30%) contrast(0.9) brightness(0.7);
 }
 
-.servises-container .grunge-border {
+.services-container .grunge-border {
   top: 0;
   transform: rotate(180deg);
 }
 
-.service-heading, .servises-content {
+.service-heading, .services-content {
   position: relative;
 }
 
 /* service header */
-.servises-container h2 {
-  display: inline-block;
-  padding-left: 7%;
-  padding-bottom: 2rem;
-  font-size: 2rem;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.863);
-  letter-spacing: 8px;
-  font-weight: 700;
-}
-
 #stroke {
   display: inline-block;
   content: url(../images/stroke.png);
@@ -276,7 +288,7 @@ h1 {
 }
 
 /* service content */
-.servises-content {
+.services-content {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -284,29 +296,21 @@ h1 {
 }
 
 /* list headers */
-.servises-content h3 {
-  margin-bottom: 10px;
-  color: #aa7339;
-  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.863);
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-}
-
 #services h3:hover {
   border-bottom: 1px solid rgba(163, 163, 163, 0.776);
 }
 
-.servises-content img {
+.services-content img {
   width: 2rem;
   margin-bottom: 1rem;
 }
 
-.servises-content a {
+.services-content a {
   text-decoration: none;
 }
 
 /* servise lists */
-.servises-content ul {
+.services-content ul {
   font-weight: 400;
   color: #f0d18d;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.863);
@@ -361,8 +365,11 @@ h1 {
   text-align: justify;
 }
 
-.service-text h2 {
+.service-text h3 {
   color: #443030;
+  text-shadow: none;
+  text-transform: none;
+  font-size: 1.4em;
 }
 
 .service-text p {
@@ -386,6 +393,7 @@ footer {
   padding-top: 30px;
   background-color: #181b18eb;
   color: rgb(190, 188, 186);
+  font-size: 19px;
 }
 
 .footer-container {
@@ -394,12 +402,9 @@ footer {
 }
 
 footer h3 {
-  font-weight: 400;
   padding-bottom: 10px;
-}
-
-footer p, p-number a{
-  font-size: 19px;
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
 footer a {
@@ -454,7 +459,7 @@ footer a:hover {
 /* ----- BOOK NOW ----- */
 
 /* PRICE */
-.servises-container.price-container::before {
+.services-container.price-container::before {
   background-image: url(../images/pexels-moises-delgado.jpg);
   background-position: top center;
   background-attachment: fixed;
@@ -527,11 +532,19 @@ footer a:hover {
 /* FORM */
 
 /* header */
-.appoitment-form h2 {
-  padding: 2em 2em 1.3em;
+.appoitment-form h2, .appoitment-form h3 {
   color: #443030;
   letter-spacing: 1px;
+  text-shadow: none;
+}
+
+.appoitment-form h2 {
+  padding: 2em 2em 1.3em;
   font-size: 1.6em;
+}
+
+.appoitment-form h3 {
+  font-size: 1.2em;
 }
 
 /* main data block */
@@ -606,12 +619,6 @@ footer a:hover {
 /* service selection */
 .service-selection-container {
   padding: 1.8em 2em 0;
-}
-
-.service-selection-container h3 {
-  font-size: 1.2em;
-  color: #443030;
-  letter-spacing: 1px;
 }
 
 .service-selection-wraper {
@@ -744,7 +751,7 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-    .menu-list li a, .servises-content li, .price tr, .service-text p, .copyright {
+    .menu-list li a, .services-content li, .price tr, .service-text p, .copyright {
     font-size: 0.9rem;
   }
   .menu-list .brush-stroke {
@@ -754,13 +761,13 @@ footer a:hover {
     background-size: 100% 35px;
   }
 
-  .servises-container h2 {
+  .services-container h2 {
     font-size: 1.8rem;
   }
   #stroke {
     height: 15px;
   }
-    .servises-content h3, footer h3, #book-now {
+    .services-content h3, footer h3, #book-now {
     font-size: 1rem;
   }
   .service-text h2 {
@@ -819,7 +826,7 @@ footer a:hover {
   .service-text h2 {
     font-size: 1.1rem;
   }
-  .servises-content img {
+  .services-content img {
     width: 1.8rem;
   }
 
@@ -841,12 +848,12 @@ footer a:hover {
   }
 
   /* price table */
-  .servises-content.price {
+  .services-content.price {
     flex-direction: column;
     align-items: center;
   }
   /* width */
-  .servises-content.price {
+  .services-content.price {
     margin: 0 3rem;
   }
 
@@ -859,21 +866,21 @@ footer a:hover {
 /* For screens sizes from 750px wide and down */
 @media screen and (max-width: 750px) {
   /* service area */
-  .servises-container h2 {
+  .services-container h2 {
     font-size: 1.5rem;
   }
-  .servises-content h3 {
+  .services-content h3 {
     font-size: 0.9rem;
   }
-  .servises-content {
+  .services-content {
     flex-direction: column;
     align-items: center;
   }
-  .servises-content > div {
+  .services-content > div {
     width: 10rem;
     padding: 20px 0px 5px;
   }
-  .servises-content ul {
+  .services-content ul {
     border-bottom: #aa7339 3px groove;
   }
 
@@ -985,7 +992,7 @@ footer a:hover {
     letter-spacing: 5px;
   }
   /* width */
-  .servises-content.price {
+  .services-content.price {
     margin: 0 2rem;
   }
 
