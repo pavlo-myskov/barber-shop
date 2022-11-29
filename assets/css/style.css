@@ -984,6 +984,11 @@ footer a:hover {
     font-size: 1.2em !important;
   }
 
+  /* nav bar grunge down border */
+  .services-container .grunge-border {
+    left: 0;
+  }
+  
   .services-container {
     padding: 0 5px 40px;
   }
