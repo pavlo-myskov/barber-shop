@@ -792,8 +792,7 @@ footer a:hover {
     display: none;
   }
   .navbar {
-    justify-content: space-between;
-    padding: 0 40px;
+    justify-content: space-around;
   }
   #burger-menu {
     display: flex;
@@ -913,10 +912,6 @@ footer a:hover {
   }
 
   /* navbar */
-  .navbar {
-    padding: 0;
-    justify-content: space-around;
-  }
   .logo-image {
     height: 2.6rem;
     width: 4.6rem;
@@ -978,7 +973,6 @@ footer a:hover {
     font-size: 2em;
   }
   h2 {
-    font-size: 1.6em;
     width: 100%;
     text-align: center;
     padding: 50px 5px 30px;
