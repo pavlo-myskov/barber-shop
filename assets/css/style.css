@@ -7,7 +7,11 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+footer {
+  font-size: 16px;
 }
 
 body {
@@ -106,7 +110,7 @@ h2 {
   padding: 5px 20px;
   background: url(../images/brush-stroke.png);
   background-position: center;
-  background-size: 105% 45px;
+  background-size: 98% 35px;
   background-repeat: no-repeat;
 }
 
@@ -142,7 +146,7 @@ h2 {
 
 .menu-list li a {
   color: #c0a364;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -393,7 +397,6 @@ footer {
   padding-top: 30px;
   background-color: #181b18eb;
   color: rgb(190, 188, 186);
-  font-size: 19px;
 }
 
 .footer-container {
@@ -728,13 +731,6 @@ footer a:hover {
 
 /* For large screens sizes from 1200px wide and DOWN */
 @media screen and (max-width: 1200px) {
-  .menu-list li a {
-    font-size: 1.1rem;
-  }
-  .menu-list .brush-stroke {
-    background-size: 100% 40px;
-  }
-
   /* detail service pictures */
     .haircut-pic, .beard-pic, .shave-pic {
     background-position: center;
@@ -751,16 +747,6 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-  html, footer {
-    font-size: 18px;
-  }
-
-  .menu-list .brush-stroke {
-    background-size: 98% 32px;
-  }
-  #book-now.brush-stroke {
-    background-size: 100% 35px;
-  }
   #stroke {
     height: 15px;
   }
@@ -924,7 +910,7 @@ footer a:hover {
     width: 4.6rem;
   }
   #book-now.brush-stroke {
-    background-size: 90% 27px;
+    background-size: 92% 30px;
   }
   #burger-menu {
     width: 40px;
