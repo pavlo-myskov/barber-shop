@@ -30,7 +30,8 @@ h1 {
 }
 
 h2 {
-  display: inline-block;
+  position: relative;
+  display: flex;
   padding-left: 7%;
   padding-bottom: 2rem;
   font-size: 2rem;
@@ -278,17 +279,17 @@ h2 {
   transform: rotate(180deg);
 }
 
-.service-heading, .services-content {
+.services-content {
   position: relative;
 }
 
 /* service header */
 #stroke {
-  display: inline-block;
+  align-self: center;
   content: url(../images/stroke.png);
   margin-left: 10px;
   width: 180px;
-  height: 20px;
+  height: 10px;
 }
 
 /* service content */
@@ -747,10 +748,6 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-  #stroke {
-    height: 15px;
-  }
-
   /* table width */
   .price table {
     margin: 0 2rem;
@@ -794,7 +791,6 @@ footer a:hover {
   /* services */
   #stroke {
     width: 150px;
-    height: 10px;
   }
   .services-content img {
     width: 1.8rem;
@@ -898,6 +894,12 @@ footer a:hover {
   h1 {
     font-size: 2.3em;
   }
+  h2 {
+    padding-left: 8px;
+    padding-right: 8px;
+    justify-content: center;
+    text-align: center;
+  }
 
   /* header */
   .header-text p {
@@ -918,13 +920,8 @@ footer a:hover {
   }
 
   /* services */
-  .service-heading #stroke {
-    position: relative;
-    top: -5px;
-  }
   #stroke {
-    width: 100px;
-    height: 7px;
+    display: none;
   }
 
   /* detail services */
@@ -936,13 +933,6 @@ footer a:hover {
   }
 
   /* price container*/
-  .price-container h2 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100%;
-    text-align: center;
-    /* letter-spacing: 3px; */
-  }
   /* width */
   .services-content.price {
     margin: 0 2rem;
@@ -969,9 +959,6 @@ footer a:hover {
     width: 100%;
     text-align: center;
     padding: 50px 5px 30px;
-  }
-  .service-heading #stroke {
-    display: none;
   }
   h3 {
     font-size: 1.2em !important;
