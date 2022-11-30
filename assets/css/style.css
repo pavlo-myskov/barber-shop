@@ -785,7 +785,14 @@ footer a:hover {
   }
 }
 
-/* For screens sizes from 900px wide and down */
+/* For screens sizes from 900px wide and UP */
+@media screen and (min-width: 900px) {
+  .service-text p {
+    line-height: 160%;
+  }
+}
+
+/* For screens sizes from 900px wide and DOWN */
 @media screen and (max-width: 900px) {
   /* navbar */
   .menu-list {
@@ -988,7 +995,7 @@ footer a:hover {
   .services-container .grunge-border {
     left: 0;
   }
-  
+
   .services-container {
     padding: 0 5px 40px;
   }
