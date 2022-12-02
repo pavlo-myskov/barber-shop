@@ -936,6 +936,22 @@ footer a:hover {
   .service-text p {
     line-height: 30px;
   }
+
+  /* gallery */
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .vertical-image {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  .landscape-image {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .goatee-2 {
+    grid-row-start: 8;
+  }
 }
 
 /* For screens sizes from 500px wide and down */
