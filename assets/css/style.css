@@ -805,6 +805,19 @@ footer a:hover {
   .submit-button {
     padding-bottom: 3em;
   }
+
+  /* gallery */
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .faux-hawk-2, .faux-hawk{
+    grid-column: span 2;
+  }
+  .stubble-2 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+
 }
 
 /* For screens sizes from 900px wide and UP */
