@@ -1002,3 +1002,13 @@ footer a:hover {
     font-size: 0.7em;
   }
 }
+
+/* GALLERY */
+.gallery-container figure{
+  position: relative;
+}
+
+.gallery-container figcaption{
+  position: absolute;
+  bottom: 0;
+}
