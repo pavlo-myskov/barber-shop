@@ -724,13 +724,30 @@ footer a:hover {
 /* image caption */
 .gallery-container figure{
   position: relative;
+  overflow: hidden;
 }
 
 .gallery-container figcaption{
   position: absolute;
-  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+  background-color: #f2f2f2d2;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  border-radius: 50px 50px 0 0;
+
+  bottom: -50px;
+  opacity: 0;
+  transition: 0.7s;
 }
 
+.gallery-container figure:hover figcaption{
+  bottom: 0px;
+  opacity: 1;
+  transition: 0.3s;
+}
 
 /* MEDIA QUERIES */
 
