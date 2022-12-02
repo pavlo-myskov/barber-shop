@@ -693,6 +693,45 @@ footer a:hover {
   height: 100%;
 }
 
+
+/* GALLERY */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vertical-image {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.landscape-image {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.faux-hawk-2, .faux-hawk{
+  grid-column: span 1;
+}
+
+/* image caption */
+.gallery-container figure{
+  position: relative;
+}
+
+.gallery-container figcaption{
+  position: absolute;
+  bottom: 0;
+}
+
+
 /* MEDIA QUERIES */
 
 /* For large screens sizes from 1200px wide and UP */
@@ -1001,14 +1040,4 @@ footer a:hover {
   .header-text p {
     font-size: 0.7em;
   }
-}
-
-/* GALLERY */
-.gallery-container figure{
-  position: relative;
-}
-
-.gallery-container figcaption{
-  position: absolute;
-  bottom: 0;
 }
