@@ -59,6 +59,7 @@ h2 {
   width: 100%;
   height: 40px;
   z-index: 7;
+  overflow: visible;
 }
 
 /* HEADER */
@@ -84,7 +85,7 @@ h2 {
 }
 
 .main-header .grunge-border {
-  bottom: 0;
+  bottom: -2px;
 }
 
 .header-text {
@@ -269,7 +270,7 @@ h2 {
 }
 
 .services-container .grunge-border {
-  top: 0;
+  top: -2px;
   transform: rotate(180deg);
 }
 
