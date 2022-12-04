@@ -300,17 +300,9 @@ h2 {
 }
 
 /* list headers */
-#services h3:hover {
-  border-bottom: 1px solid rgba(163, 163, 163, 0.776);
-}
-
 .services-content img {
   width: 2rem;
   margin-bottom: 1rem;
-}
-
-.services-content a {
-  text-decoration: none;
 }
 
 /* servise lists */
