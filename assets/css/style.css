@@ -389,6 +389,7 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 footer h3 {
@@ -397,8 +398,16 @@ footer h3 {
   font-size: 1.3rem;
 }
 
+.footer-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
 footer a {
-  text-decoration: 1px underline;
+  text-decoration: 0.5px underline;
   color: inherit;
 }
 
@@ -407,41 +416,36 @@ footer a:hover {
 }
 
 .copyright {
-  padding-top: 20px;
+  margin-top: 20px;
   padding-bottom: 10px;
 }
 
-/* visit us */
+/* Visit us */
+.visit-us .footer-wraper {
+  text-align: left;
+}
+/* icons */
 .visit-us {
   position: relative;
 }
-
-.address{
-  padding-bottom: 10px;
-  line-height: 25px;
-}
-
 .visit-us i {
   position: absolute;
   left: -25px;
 }
 
-/* opening times */
-.opening-times p {
-  line-height: 50px;
+.address{
+  line-height: 22px;
 }
 
-/* find us */
-.find-us {
-  text-align: center;
+/* Find us */
+.find-us .footer-wraper {
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-
 .find-us li {
-  display: inline-block;
+  list-style-type: none;
   font-size: 40px;
-  padding: 30px 0;
 }
-
 .find-us .facebook {
   padding: 0 40px;
 }
@@ -880,27 +884,25 @@ footer a:hover {
     margin-bottom: 3rem;
   }
 
-    /* footer */
-    footer {
-      padding: 0 20px;
-    }
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-wraper {
+    height: auto;
+  }
+  footer {
+    padding: 0 20px;
+  }
+  footer h3, .copyright {
+    margin: 0;
+    padding-top: 30px;
+  }
 
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-    .footer-container > div {
-      padding: 20px 0;
-    }
-    footer h3 {
-      padding-bottom: 5px;
-    }
-    .opening-times p {
-      line-height: 30px;
-    }
-    .find-us li {
-      padding: 10px 0;
-    }
+  .visit-us .address, .opening-times p:first-child{
+    padding-bottom: 10px;
+  }
 }
 
 /* For screens sizes from 750px wide and down */
@@ -959,7 +961,7 @@ footer a:hover {
 
 /* For screens sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
-   html, footer {
+   html{
     font-size: 16px;
   }
   h1 {
@@ -970,6 +972,12 @@ footer a:hover {
     padding-right: 8px;
     justify-content: center;
     text-align: center;
+  }
+  footer {
+    font-size: 14px;
+  }
+  .find-us li {
+    font-size: 30px;
   }
 
   /* header */
