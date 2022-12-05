@@ -259,14 +259,14 @@ h2 {
   content: "";
   position: absolute;
   background: url(../images/pexels-nikolaos-dimou.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: bottom right;
+  background-size: 140%;
   background-repeat: no-repeat;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: blur(5px) grayscale(70%) sepia(30%) contrast(0.9) brightness(0.7);
+  filter: blur(7px) grayscale(60%) sepia(10%) contrast(0.9) brightness(0.8);
 }
 
 .services-container .grunge-border {
@@ -909,6 +909,10 @@ footer a:hover {
 /* For screens sizes from 750px wide and down */
 @media screen and (max-width: 750px) {
   /* service area */
+  .services-container::before {
+    background-size: 400vw;
+  }
+
   .services-content {
     flex-direction: column;
     align-items: center;
@@ -1000,6 +1004,10 @@ footer a:hover {
   }
 
   /* services */
+  .services-container::before {
+    background-position: center;
+    background-size: cover;
+  }
   #stroke {
     display: none;
   }
