@@ -957,10 +957,10 @@ footer a:hover {
   }
   .landscape-image {
     grid-column: span 1;
-    grid-row: span 1;
+    grid-row: span 2;
   }
-  .goatee-2 {
-    grid-row-start: 8;
+  .goatee-2, .ivy-league-2 {
+    grid-column: span 2;
   }
 }
 
