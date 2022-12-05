@@ -8,6 +8,9 @@ The website provides users with information about barbershop services and their 
 - [**Project Goals**](#project-goals)
     - [Bussiness Goals](#bussines-goals)
     - [User Goals](#user-goals)
+- [**User Experience UX**](#user-experience-ux)
+    - [Wireframes](#wireframes)
+
 
 
 ## Project Goals
@@ -22,3 +25,13 @@ The website provides users with information about barbershop services and their 
 - Find out information about the services provided and their prices.
 - Find out the work schedule, contacts and the location of the barbershop itself.
 - The ability to book an appointment through the site on their own.
+
+[Back to top](#table-of-contents)
+
+## User Experience (UX)
+### Wireframes
+The Barbershop Website was designed based on wireframes produced in [Balsamiq](https://balsamiq.com/). All design features were implemented.
+
+Index | Book Now
+--- | ---
+![Index page wireframe](documentation/wireframes/wireframe-index.png) | ![Booking page wireframe](documentation/wireframes/wireframe-booking.png)
