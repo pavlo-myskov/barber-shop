@@ -81,7 +81,7 @@ h2 {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: grayscale(60%) contrast(0.9) brightness(0.7);
+  filter: grayscale(40%) contrast(0.9) brightness(0.7);
 }
 
 .main-header .grunge-border {
