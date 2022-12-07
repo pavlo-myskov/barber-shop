@@ -72,7 +72,7 @@ h2 {
 
 .main-header::before {
   content: "";
-  background-image: url(../images/pexels-murat-gokce.jpg);
+  background-image: url(../images/theo-rivierenlaan-pixabay.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h2 {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: grayscale(40%) contrast(0.9) brightness(0.7);
+  filter: blur(2px) grayscale(40%) contrast(0.9) brightness(0.7);
 }
 
 .main-header .grunge-border {
