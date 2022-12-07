@@ -455,10 +455,11 @@ footer a:hover {
 
 /* PRICE */
 .services-container.price-container::before {
-  background-image: url(../images/pexels-moises-delgado.jpg);
-  background-position: top center;
-  background-attachment: fixed;
-  filter: blur(8px) grayscale(60%) contrast(0.9) brightness(0.7);
+  background-image: url(../images/pexels-gonzalo-guzman.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) grayscale(60%) contrast(0.9) brightness(0.6);
 }
 
 .price-container h2 {
