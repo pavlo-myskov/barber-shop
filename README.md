@@ -22,6 +22,7 @@ The website provides users with information about barbershop services and their 
   - [NavBar](#navigation-bar)
   - [Services](#services)
   - [Detail Services](#detail-services)
+  - [Footer](#footer)
 
 ## Project Goals
 
@@ -109,3 +110,9 @@ Desktop|Mobile
 Desktop|Mobile
 :-:|:-:
 ![Services Desktop](documentation/features/detail-service-desktop.png)|![Services Mobile](documentation/features/detail-service-mobile.png)
+
+- #### Footer
+  The footer is valuable to the user as it includes three blocks of useful info. This is address and phone number of the barbershop, opening times and links to the relevant social media sites.
+  The footer section is also fully responsive and on smaller devices the info blocks stack one on top of the other.
+
+![Footer](documentation/features/footer.png)
