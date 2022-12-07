@@ -18,11 +18,16 @@ The website provides users with information about barbershop services and their 
     - [Color Scheme](#color-scheme)
     - [Images](#images)
 - [**Features**](#features)
-  - [Header](#header)
-  - [NavBar](#navigation-bar)
-  - [Services](#services)
-  - [Detail Services](#detail-services)
-  - [Footer](#footer)
+  - [Home Page](#home-page)
+    - [Header](#header)
+    - [NavBar](#navigation-bar)
+    - [Services](#services)
+    - [Detail Services](#detail-services)
+    - [Footer](#footer)
+  - [BookNow Page](#booknow-page)
+    - [Price List](#price-list)
+    - [Book appoitment](#book-appointment)
+    - [Map](#map)
 
 ## Project Goals
 
@@ -116,3 +121,23 @@ Desktop|Mobile
   The footer section is also fully responsive and on smaller devices the info blocks stack one on top of the other.
 
 ![Footer](documentation/features/footer.png)
+
+### BookNow Page
+
+- #### Price List
+  The Price List section consists of two columns containing the services provided and their cost. The user can access this page using the *Price* link on the navigation bar.
+
+![Price List](documentation/features/price.png)
+
+- #### Book appointment
+  The [booking section](https://flashdrag.github.io/barber-shop/booknow.html#appoitment) horizontally divided on two blocks: booking form and image. On small devices the booking form occupies all available horizontal space. The booking form allows the user to select the desired service by simply clicking on one of the three icons. Also they can choose the date and time of visiting the barbershop. First Name, Last Name, Email, Date and Time are required.
+
+Desktop|Mobile
+:-:|:-:
+![Form desktop](documentation/features/form-desktop.png) | ![Form mobile](documentation/features/form-mobile.png)
+
+- #### Map
+  The map is interactive and uses google api. The map is directly beneath the booking form and provides the user with the barbershop location. The map itself is embedded interactive [Google Map](https://maps.google.com) that allows the users to save the location to their navigation or get direction to the barbershop.
+  The current map location was choosen for example.
+
+![Google Map](documentation/features/map.png)
