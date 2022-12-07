@@ -28,6 +28,7 @@ The website provides users with information about barbershop services and their 
     - [Price List](#price-list)
     - [Book appoitment](#book-appointment)
     - [Map](#map)
+  - [Gallery Page](#gallery-page)
 
 ## Project Goals
 
@@ -76,6 +77,7 @@ The website is designed in such a way as to interest the user, give useful infor
 - #### Images
   Grunge borders, brush-stroke and logo were created in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using paint brushes and other tools.
   All photos used in the project were downloaded from sources with a free license and do not require attribution. The images were colored and resized in [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) for a light moody style.
+  All images were compressed using [IloveIMG](https://www.iloveimg.com/) online service to optimize site loading.
 
 [Back to top](#table-of-contents)
 
@@ -112,6 +114,8 @@ Desktop|Mobile
 - #### Detail Services
   The section is implemented in the form of a chessboard on which pictures alternate with blocks of text. Each text block is supported by a picture and succinctly describes the main services to assure the user of what the company does and what is available. Also each block contains a link to the service booking page.
 
+  On large screens, the section has a maximum horizontal limit size and is framed in a grunge border on the sides. The Grunge border was designed in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using a painting brush. using painting brushes.
+
 Desktop|Mobile
 :-:|:-:
 ![Services Desktop](documentation/features/detail-service-desktop.png)|![Services Mobile](documentation/features/detail-service-mobile.png)
@@ -132,6 +136,8 @@ Desktop|Mobile
 - #### Book appointment
   The [booking section](https://flashdrag.github.io/barber-shop/booknow.html#appoitment) horizontally divided on two blocks: booking form and image. On small devices the booking form occupies all available horizontal space. The booking form allows the user to select the desired service by simply clicking on one of the three icons. Also they can choose the date and time of visiting the barbershop. First Name, Last Name, Email, Date and Time are required.
 
+  On large screens, the section has a maximum horizontal limit size and is framed in a grunge border on the sides. The Grunge border was designed in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using a painting brush. using painting brushes.
+
 Desktop|Mobile
 :-:|:-:
 ![Form desktop](documentation/features/form-desktop.png) | ![Form mobile](documentation/features/form-mobile.png)
@@ -141,3 +147,11 @@ Desktop|Mobile
   The current map location was choosen for example.
 
 ![Google Map](documentation/features/map.png)
+
+### Gallery Page
+  The gallery allows the user to look at different styles of services provided. Imagery of the barbershop arranged a responsively styled grid. As the screen resolution decreases, the number of columns in the grid decreases, allowing to keep images large enough for comfortable viewing.
+  Also hovering the mouse over any photo provides it's style name displayed at the bottom of the image.
+
+Desktop | Mobile
+:-:|:-:
+![Gallery Desktop](documentation/features/gallery-desktop.png) | ![Gallery Mobile](documentation/features/gallery-mobile.png)
