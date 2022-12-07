@@ -20,6 +20,8 @@ The website provides users with information about barbershop services and their 
 - [**Features**](#features)
   - [Header](#header)
   - [NavBar](#navigation-bar)
+  - [Services](#services)
+  - [Detail Services](#detail-services)
 
 ## Project Goals
 
@@ -93,3 +95,17 @@ All external links open in another tab and use the noopener attributes to preven
 | ![NavBar on Desktop](documentation/features/full-navbar.png) | ![Navigation Bar on Mobile](documentation/features/mobile-navbar.png) |
 |                      **Sticky NavBar**                       |                          **Dropdown NavBar**                          |
 |  ![Sticky NavBar](documentation/features/sticky-navbar.png)  |    ![Dropdown Navbar](documentation/features/dropdown-navbar.png)     |
+
+- #### Services
+  This section presents three lists of services provided by the barbershop. Icons were used to attract the users eyes and allow them to quickly understand what type of service was being offered. On the big screen, the lists are arranged horizontally in 3 columns. On smaller devices, the services stack one on top of the other.
+
+Desktop|Mobile
+:-:|:-:
+![Services Desktop](documentation/features/services-desktop.png)|![Services Mobile](documentation/features/services-mobile.png)
+
+- #### Detail Services
+  The section is implemented in the form of a chessboard on which pictures alternate with blocks of text. Each text block is supported by a picture and succinctly describes the main services to assure the user of what the company does and what is available. Also each block contains a link to the service booking page.
+
+Desktop|Mobile
+:-:|:-:
+![Services Desktop](documentation/features/detail-service-desktop.png)|![Services Mobile](documentation/features/detail-service-mobile.png)
