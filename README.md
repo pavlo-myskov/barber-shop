@@ -70,7 +70,7 @@ The website is designed in such a way as to interest the user, give useful infor
   The main website font is a geometric slab-serif typeface family _Arvo_ and it's fallback font is _Serif_. The flavour of the font is rather mixed, being nearly monolinear to increase legibility.
   The font implemented on the website using [Google Fonts API](https://fonts.google.com). Heading weights are bold(700) and body text is regular(400).
 - #### Color Scheme
-  The colour scheme based on warm yellow and brown tones and matches the images on the page.
+  The colour scheme based on whitesmoke, warm yellow and brown tones and matches the images on the page.
 
 ![Color palette](documentation/supp-images/palette.png)
 
