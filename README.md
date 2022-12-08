@@ -29,6 +29,7 @@ The website provides users with information about barbershop services and their 
     - [Book appoitment](#book-appointment)
     - [Map](#map)
   - [Gallery Page](#gallery-page)
+- [**Technologies Used**](#technologies-used)
 
 ## Project Goals
 
@@ -155,3 +156,22 @@ Desktop|Mobile
 Desktop | Mobile
 :-:|:-:
 ![Gallery Desktop](documentation/features/gallery-desktop.png) | ![Gallery Mobile](documentation/features/gallery-mobile.png)
+
+[Back to top](#table-of-contents)
+
+## Technologies Used
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - building, structuring and presenting project
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - website styling
+- [Balsamiq](https://balsamiq.com) - wireframes
+- [Google Fonts](https://fonts.google.com) - fonts
+- [FontAwesome](https://fontawesome.com), [Uxwing](https://uxwing.com) - icons
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) - grange border, brush stroke, logo
+- [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) - color grading, resizing
+- [Google Map](https://maps.google.com) - map
+- [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
+- [VScode](https://code.visualstudio.com) - code editing
+- [GIT](https://git-scm.com/), [GitHub](https://github.com/) - tracking, storing, hosting project
+- [iloveIMG](https://www.iloveimg.com) - image compressing and resizing
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools) - inspecting and debugging code
+
+[Back to top](#table-of-contents)
