@@ -322,7 +322,7 @@ h2 {
 .service-wraper {
   display: flex;
   align-items: center;
-  background-color: rgba(151, 140, 124, 0.235);
+  background-color: #e8e5e2;
 }
 
 /* picture */
@@ -505,7 +505,7 @@ footer a:hover {
 
 /* container */
 .appoitment-container {
-  background-color: rgba(151, 140, 124, 0.235);
+  background-color: #e8e5e2;
   display: flex;
 }
 
@@ -641,9 +641,11 @@ footer a:hover {
   padding-bottom: 1em;
 }
 
-.checkbox-field label:hover {
+.checkbox-field:hover label{
   cursor: pointer;
-  border: 0.5px dotted;
+}
+.checkbox-field:hover label p{
+  color: #000000;
 }
 
 .checkbox-field input[type="checkbox"]:not(:checked) ~ label {
@@ -658,20 +660,28 @@ footer a:hover {
 }
 
 .submit-button input {
-  padding: 1em 3em;
+  padding: 0.6em 1.9em;
   border: none;
-  background-color: rgb(182, 160, 131);
-  font-size: 0.9em;
+  background-color: #b6a083;
+  font-size: 1.2em;
+  text-transform: lowercase;
+  text-shadow: 0.5px 0.5px black;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
 }
 
 .submit-button input:hover {
   cursor: pointer;
-  border: 1.5px solid;
+  background-color: #a89071;
 }
 
-.submit-button input:checked {
-  background-color: rgb(218, 155, 73);
+.submit-button input:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
+
 
 /* MAP */
 .map-wraper {
