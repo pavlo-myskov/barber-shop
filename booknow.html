@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Pavlo Myskov" />
+    <meta name="author" content="Pavlo Myskov">
     <meta
       name="description"
       content="Barber shop Website for Successful Barbershop Business"
-    />
+   >
     <meta
       name="keywords"
       content="barbers, barbershop, barber shop, haircut, beard trim, shaving, barbers cut, mens barbers"
-    />
+   >
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Book Now</title>
   </head>
   <body>
@@ -28,7 +28,7 @@
               class="logo-image"
               src="assets/images/logo.png"
               alt="barber shop nav logo"
-            />
+           >
           </a>
         </div>
 
@@ -48,19 +48,17 @@
           <a href="#appoitment">Book Now</a>
         </div>
 
-        <input type="checkbox" id="burger-input" />
+        <input type="checkbox" id="burger-input">
         <label id="burger-menu" for="burger-input">
-          <nav id="dropdown-navbar">
-            <ul>
-              <li>
-                <a href="index.html">HOME</a>
-              </li>
-              <li>
-                <a href="booknow.html">PRICE</a>
-              </li>
-              <li><a href="gallery.html">GALLERY</a></li>
-            </ul>
-          </nav>
+          <ul id="dropdown-navbar">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="booknow.html">PRICE</a>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>
+          </ul>
         </label>
       </nav>
     </header>
@@ -158,7 +156,7 @@
                   name="f_name"
                   placeholder="First Name"
                   required
-                />
+               >
                 <label for="f_name">First Name</label>
               </div>
 
@@ -169,7 +167,7 @@
                   name="l_name"
                   placeholder="Last Name"
                   required
-                />
+               >
                 <label for="l_name">Last Name</label>
               </div>
             </div>
@@ -181,7 +179,7 @@
                   id="p_number"
                   name="p_number"
                   placeholder="Phone Number"
-                />
+               >
                 <label for="p_number">Phone Number</label>
               </div>
 
@@ -192,7 +190,7 @@
                   name="email"
                   placeholder="Email"
                   required
-                />
+               >
                 <label for="email">Email</label>
               </div>
             </div>
@@ -200,12 +198,12 @@
             <div>
               <div class="input-block datetime">
                 <label for="date">Date</label>
-                <input type="date" id="date" name="date" required />
+                <input type="date" id="date" name="date" required>
               </div>
 
               <div class="input-block datetime">
                 <label for="time">Time</label>
-                <input type="time" id="time" name="time" required />
+                <input type="time" id="time" name="time" required>
               </div>
             </div>
           </div>
@@ -215,10 +213,10 @@
 
             <div class="service-selection-wraper">
               <div class="checkbox-field">
-                <input type="checkbox" id="haircut-checkbox" name="haircut" />
+                <input type="checkbox" id="haircut-checkbox" name="haircut">
                 <label for="haircut-checkbox">
-                  <img src="assets/images/hair-icon.png" alt="hair icon" />
-                  <p>Haircut</p>
+                  <img src="assets/images/hair-icon.png" alt="hair icon">
+                  <span>Haircut</span>
                 </label>
               </div>
 
@@ -227,25 +225,25 @@
                   type="checkbox"
                   id="beard-trim-checkbox"
                   name="beard-trim"
-                />
+               >
                 <label for="beard-trim-checkbox">
-                  <img src="assets/images/beard-icon.png" alt="beard icon" />
-                  <p>Beard Trim</p>
+                  <img src="assets/images/beard-icon.png" alt="beard icon">
+                  <span>Beard Trim</span>
                 </label>
               </div>
 
               <div class="checkbox-field">
-                <input type="checkbox" id="shave-checkbox" name="shave" />
+                <input type="checkbox" id="shave-checkbox" name="shave">
                 <label for="shave-checkbox">
-                  <img src="assets/images/razor-icon.png" alt="razor icon" />
-                  <p>Shave</p>
+                  <img src="assets/images/razor-icon.png" alt="razor icon">
+                  <span>Shave</span>
                 </label>
               </div>
             </div>
           </div>
 
           <div class="submit-button">
-            <input type="submit" value="COMPLETE" />
+            <input type="submit" value="COMPLETE">
           </div>
         </form>
       </div>
@@ -254,19 +252,19 @@
         <img
           src="assets/images/pexels-lisa-fotios.jpg"
           alt="barber's workspace equipped with a chair, a shelf with creams, two flowerpots near the window"
-        />
+       >
       </div>
     </section>
 
     <!-- map -->
-    <section class="map-wraper">
+    <div class="map-wraper">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8798257918265!2d-6.257384079511361!3d53.3405581824068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e992e3291a3%3A0x5cd11f005ad837c!2sSt%20Stephen&#39;s%20Green!5e0!3m2!1sen!2sie!4v1669653344098!5m2!1sen!2sie"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </section>
+    </div>
 
     <!-- footer -->
     <footer>
@@ -277,8 +275,8 @@
             <div class="address">
               <i class="fas fa-map-marker-alt"></i>
               <p>
-                St Stephen's Green,<br />
-                Dublin 2 <br />
+                St Stephen's Green,<br>
+                Dublin 2 <br>
                 8PQR79
               </p>
             </div>
