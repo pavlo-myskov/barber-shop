@@ -30,6 +30,7 @@ The website provides users with information about barbershop services and their 
     - [Map](#map)
   - [Gallery Page](#gallery-page)
 - [**Technologies Used**](#technologies-used)
+- [**Testing**](#testing)
 
 ## Project Goals
 
@@ -65,7 +66,7 @@ The Barbershop site has three pages with a clear and semantic structure, the inf
 
 ### Design Choices
 
-The website is designed in such a way as to interest the user, give useful information about the services and increase the chances of visiting the Barbershop. The appearance and UI design is quite user-friendly, stylish and responsive.
+The website is designed in such a way as to interest the user, give useful information about the services and increase the chances of visiting the Barbershop. The appearance and UI design is quite user-friendly, stylish and responsive. The website design meets accessibility requirements including sufficient contrast between background and foreground colours, non-text elements have planned alt text equivalents to cater for the visually impaired.
 
 - #### Typography
   The main website font is a geometric slab-serif typeface family _Arvo_ and it's fallback font is _Serif_. The flavour of the font is rather mixed, being nearly monolinear to increase legibility.
@@ -165,7 +166,7 @@ Desktop | Mobile
 - [Balsamiq](https://balsamiq.com) - wireframes
 - [Google Fonts](https://fonts.google.com) - fonts
 - [FontAwesome](https://fontawesome.com), [Uxwing](https://uxwing.com) - icons
-- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) - grange border, brush stroke, logo
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) - grunge border, brush stroke, logo
 - [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) - color grading, resizing
 - [Google Map](https://maps.google.com) - map
 - [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
@@ -175,3 +176,6 @@ Desktop | Mobile
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools) - inspecting and debugging code
 
 [Back to top](#table-of-contents)
+
+## Testing
+See [TESTING.md](https://github.com/FlashDrag/barber-shop/blob/master/documentation/TESTING.md) for an overview of website testing and debugging.
