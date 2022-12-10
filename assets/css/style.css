@@ -72,7 +72,7 @@ h2 {
 
 .main-header::before {
   content: "";
-  background-image: url(../images/theo-rivierenlaan-pixabay.jpg);
+  background-image: url(../images/theo-rivierenlaan-pixabay.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,7 +182,7 @@ h2 {
 .services-container::before {
   content: "";
   position: absolute;
-  background: url(../images/pexels-nikolaos-dimou.jpg);
+  background: url(../images/pexels-nikolaos-dimou.webp);
   background-position: bottom right;
   background-size: 140%;
   background-repeat: no-repeat;
@@ -222,6 +222,7 @@ h2 {
 /* list headers */
 .services-content img {
   width: 2rem;
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -259,18 +260,18 @@ h2 {
 }
 
 .haircut-pic {
-  background-image: url(../images/pexels-thgusstavo-santana-hair.jpg);
+  background-image: url(../images/pexels-thgusstavo-santana-hair.webp);
   background-position-y: -12rem;
 }
 
 .beard-pic {
-  background-image: url(../images/pexels-thgusstavo-santana-beard.jpg);
+  background-image: url(../images/pexels-thgusstavo-santana-beard.webp);
   order: 1;
   background-position-y: -15rem;
 }
 
 .shave-pic {
-  background-image: url(../images/pexels-thgusstavo-santana-shave.jpg);
+  background-image: url(../images/pexels-thgusstavo-santana-shave.webp);
   background-position-y: -10rem;
 }
 
@@ -379,7 +380,7 @@ footer a:hover {
 
 /* PRICE */
 .services-container.price-container::before {
-  background-image: url(../images/pexels-gonzalo-guzman.jpg);
+  background-image: url(../images/pexels-gonzalo-guzman.webp);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
