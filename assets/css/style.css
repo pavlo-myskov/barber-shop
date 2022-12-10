@@ -18,7 +18,6 @@ body {
   background-color: #f2f2f2;
   font-family: "Arvo", serif;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -823,8 +822,8 @@ footer a:hover {
   #dropdown-navbar {
     visibility: hidden;
     position: absolute;
-    top: 65px;
-    right: -1000px;
+    top: 64.5px;
+    left: -1000px;
     width: 100%;
     transition: 0.1s ease-in-out;
     background-color: #f2f2f2;
@@ -846,7 +845,7 @@ footer a:hover {
   }
   #burger-input:checked ~ #dropdown-navbar {
     visibility: visible;
-    right: 0;
+    left: 0;
   }
 
   /* services */
