@@ -1,5 +1,25 @@
 # Testing
 
+## Contents
+
+- [Functional Testing](#functional-testing)
+    - [Home Page](#home-page)
+    - [Form](#booking-page-form)
+    - [Gallery](#gallery)
+- [Compatibility Testing](#compatibility-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Device Compatability and Responsiveness Testing](#device-compatability-and-responsiveness-testing)
+- [Validator Testing](#validator-testing)
+    - [HTML Validation](#html-validation)
+        - [Home page](#home-page-1)
+        - [Booking page](#booking-page)
+        - [Gallery page](#gallery-page)
+    - [CSS Validation](#css-validation)
+    - [Accessibility and Performance](#accessibility-and-performance)
+        - [Home page](#home-page-2)
+        - [Booking page](#booking-page-1)
+        - [Gallery page](#gallery-page-1)
+
 ## Functional Testing
 
 - ### Home page
@@ -32,6 +52,8 @@
     Imagery grid responsiveness | ok
     Image hover effect | ok
 
+[Back to top](#contents)
+
 ## Compatibility Testing
 ### Browser Compatibility
 The website was tested on the following browsers:
@@ -59,6 +81,8 @@ The website was tested using Google Chrome Developer Tool - Device Mode Toolbar.
 - Nest Hub
 - Nest Hub Max
 
+[Back to top](#contents)
+
 ## Validator Testing
 ### HTML Validation
 The [W3C Markup Validation](https://validator.w3.org/) Service was used to validate the HTML of the website.
@@ -77,7 +101,8 @@ The [W3C Markup Validation](https://validator.w3.org/) Service was used to valid
 ### CSS Validation
 The [W3C Jigsaw CSS Validation](https://validator.w3.org/) Service was used to check the CSS style sheet.
 
-*Click to re-validate this page* <a style="display: inline" href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fflashdrag.github.io%2Fbarber-shop%2F&usermedium=all&vextwarning=&warning=1">
+*Click to re-validate this page*
+<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fflashdrag.github.io%2Fbarber-shop%2F&usermedium=all&vextwarning=&warning=1">
     <img style="border:0;width:88px;height:31px"
         src="https://jigsaw.w3.org/css-validator/images/vcss"
         alt="Valid CSS!" />
@@ -85,7 +110,7 @@ The [W3C Jigsaw CSS Validation](https://validator.w3.org/) Service was used to c
 
 ![Css Validation Result](validation/css-test.png)
 
-### Accessibility
+### Accessibility and Performance
 The [Google Chrome LightHouse](https://developer.chrome.com/docs/lighthouse) was used to do the Web Accessibility and Performance Audit
 
 > Since the initial performance results for mobile devices were around 90, all images were converted to .webp format using [XConvert](https://www.xconvert.com/compress-webp)
@@ -105,4 +130,6 @@ Desktop | Mobile
 :-:|:-:
 ![Gallery Page Desktop Google Lighthouse result](validation/gallery-desktop-lighthouse.png) | ![Gallery Page Mobile Google Lighthouse result](validation/gallery-mobile-lighthouse.png)
 
-[Back to README.md](https://github.com/FlashDrag/barber-shop/blob/master/README.md)
+[Back to top](#contents)
+
+[Back to README.md](https://github.com/FlashDrag/barber-shop/blob/master/README.md#testing)
