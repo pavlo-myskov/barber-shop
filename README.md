@@ -32,6 +32,7 @@ The website provides users with information about barbershop services and their 
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
 - [**Deployment**](#deployment)
+- [**Credits**](#credits)
 
 ## Project Goals
 
@@ -165,12 +166,8 @@ Desktop | Mobile
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - building, structuring and presenting project
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - website styling
 - [Balsamiq](https://balsamiq.com) - wireframes
-- [Google Fonts](https://fonts.google.com) - fonts
-- [FontAwesome](https://fontawesome.com), [Uxwing](https://uxwing.com) - icons
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) - grunge border, brush stroke, logo
 - [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) - color grading, resizing
-- [Google Map](https://maps.google.com) - map
-- [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
 - [iloveIMG](https://www.iloveimg.com) - image compressing and resizing
 - [XConvert](https://www.xconvert.com/) - image compressing and WebP converting
 - [VScode](https://code.visualstudio.com) - code editing
@@ -184,13 +181,15 @@ See [TESTING.md](https://github.com/FlashDrag/barber-shop/blob/master/documentat
 
 ## Deployment
 
+The Live link is https://flashdrag.github.io/barber-shop
+
 #### To deploy the project:
-1. In the GitHub repository, navigate to the *Settings* tab.
+1. In the [GitHub repository](https://github.com/FlashDrag/barber-shop), navigate to the *Settings* tab.
 2. Once in Settings, navigate to the *Pages* tab on the left hand side.
 3. In the *Build and deployment* section under *Branch*, select the **master** branch and click *Save*.
 4. Once the master branch has been selected, the page will be automatically refreshed and a display indicates the successful deployment and the link to the address.
 
-The Live link is https://flashdrag.github.io/barber-shop
+![GitHub deployment settings](documentation/deployment/deploy.png)
 
 #### To run the website on a local machine:
 1. Go to the [Barbershop Github Repo](https://github.com/FlashDrag/barber-shop)
@@ -198,10 +197,29 @@ The Live link is https://flashdrag.github.io/barber-shop
 3. Extract the ZIP file on your local machine
 4. Run the *index.html* file in a browser
 
+![GitHub Download ZIP section](documentation/deployment/local-run.png)
+
 #### To clone the repo:
 1. Go to the [Barbershop Github Repo](https://github.com/FlashDrag/barber-shop)
 2. Click the *Code* button to the right of the screen and copy the *HTTPs* link there
 3. Open a GitBash terminal and navigate to the directory where you want to locate the clone
 4. Type `git clone` and paste the copied *HTTPs* link, press the *Enter* key to begin the clone process
+
+![GitHub section with repo HTTPs link](documentation/deployment/clone.png)
+
+[Back to top](#table-of-contents)
+
+## Credits
+### Code
+The [Barbershop](https://flashdrag.github.io/barber-shop) site based on my own implementation of code, applying what I've learned from [CodeInstitute Full Stack Developer Course](https://codeinstitute.net/ie/full-stack-software-development-diploma/) and other tutorials.
+
+- CSS Input Field Style was implemented based on the code examples from [FreeFrontend](https://freefrontend.com/css-input-text/)
+- Hamburger Menu was implemented based on the code tutorials from the Alvarotrigo posts [How To Make a Responsive Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [10+ Hamburger Menu Examples [CSS Only]](https://alvarotrigo.com/blog/hamburger-menu-css/)
+
+### Media Content
+- [Google Map](https://maps.google.com) - map
+- [Google Fonts](https://fonts.google.com) - fonts
+- [FontAwesome](https://fontawesome.com), [Uxwing](https://uxwing.com) - icons
+- [Pexels](https://www.pexels.com), [Pixabay](https://pixabay.com), [StockSnap](https://stocksnap.io) - Free Stock Images
 
 [Back to top](#table-of-contents)
