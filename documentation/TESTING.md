@@ -19,6 +19,7 @@
         - [Home page](#home-page-2)
         - [Booking page](#booking-page-1)
         - [Gallery page](#gallery-page-1)
+- [Bugs](#bugs)
 
 ## Functional Testing
 
@@ -129,6 +130,11 @@ Desktop | Mobile
 Desktop | Mobile
 :-:|:-:
 ![Gallery Page Desktop Google Lighthouse result](validation/gallery-desktop-lighthouse.png) | ![Gallery Page Mobile Google Lighthouse result](validation/gallery-mobile-lighthouse.png)
+
+[Back to top](#contents)
+
+## Bugs
+In order to get more performance in Lighthouse tests, optimize image loading speed and consume less cellular data, the main images were converted to the WebP format according to the recommendations [Performance Audits](https://developer.chrome.com/en/docs/lighthouse/performance/uses-webp-images/). But since WebP is a modern image format, it is not supported on some older devices browsers. In this case, the site was tested on an iPhone 5s and the images were not displayed.
 
 [Back to top](#contents)
 

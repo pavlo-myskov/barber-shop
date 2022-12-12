@@ -828,6 +828,7 @@ footer a:hover {
     width: 100%;
     transition: 0.1s ease-in-out;
     background-color: #f2f2f2;
+    z-index: 9;
   }
   #dropdown-navbar li {
     list-style-type: none;
