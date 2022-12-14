@@ -49,209 +49,213 @@
       </nav>
     </header>
 
-    <!-- price section -->
-    <section class="services-container price-container">
-      <h2>Choose a service</h2>
+    <!-- main content -->
+    <main>
+      <!-- price section -->
+      <section class="services-container price-container">
+        <h2>Choose a service</h2>
 
-      <div class="services-content price">
-        <table>
-          <caption>
-            <h3>Men Haircut</h3>
-          </caption>
-          <tr>
-            <th>Buzz Cut</th>
-            <td>€ 20</td>
-          </tr>
-          <tr>
-            <th>Crew Cut</th>
-            <td>€ 20</td>
-          </tr>
-          <tr>
-            <th>Faux Hawk</th>
-            <td>€ 30</td>
-          </tr>
-          <tr>
-            <th>Spiky Hair</th>
-            <td>€ 30</td>
-          </tr>
-          <tr>
-            <th>Ivy League</th>
-            <td>€ 25</td>
-          </tr>
-          <tr>
-            <th>Kids Trim</th>
-            <td>€ 18</td>
-          </tr>
+        <div class="services-content price">
+          <table>
+            <caption>
+              <h3>Men Haircut</h3>
+            </caption>
+            <tr>
+              <th>Buzz Cut</th>
+              <td>€ 20</td>
+            </tr>
+            <tr>
+              <th>Crew Cut</th>
+              <td>€ 20</td>
+            </tr>
+            <tr>
+              <th>Faux Hawk</th>
+              <td>€ 30</td>
+            </tr>
+            <tr>
+              <th>Spiky Hair</th>
+              <td>€ 30</td>
+            </tr>
+            <tr>
+              <th>Ivy League</th>
+              <td>€ 25</td>
+            </tr>
+            <tr>
+              <th>Kids Trim</th>
+              <td>€ 18</td>
+            </tr>
 
-          <tr>
-            <th>Custom Style</th>
-            <td data-content="by-agreement">by agreement</td>
-          </tr>
-        </table>
+            <tr>
+              <th>Custom Style</th>
+              <td data-content="by-agreement">by agreement</td>
+            </tr>
+          </table>
 
-        <table>
-          <caption>
-            <h3>Beard Trim and Shave</h3>
-          </caption>
-          <tr>
-            <th>Beard Trim and Haircut</th>
-            <td>€ 35</td>
-          </tr>
-          <tr>
-            <th>Simple Beard Trim</th>
-            <td>€ 15</td>
-          </tr>
-          <tr>
-            <th>Beard Trim & Neckline Shave</th>
-            <td>€ 20</td>
-          </tr>
-          <tr>
-            <th>Custom Beard Style</th>
-            <td>€ 20</td>
-          </tr>
-          <tr>
-            <th>Head Shave</th>
-            <td>€ 20</td>
-          </tr>
-          <tr>
-            <th>Face Shave</th>
-            <td>€ 10</td>
-          </tr>
-          <tr>
-            <th>Full Shave</th>
-            <td>€ 28</td>
-          </tr>
-        </table>
+          <table>
+            <caption>
+              <h3>Beard Trim and Shave</h3>
+            </caption>
+            <tr>
+              <th>Beard Trim and Haircut</th>
+              <td>€ 35</td>
+            </tr>
+            <tr>
+              <th>Simple Beard Trim</th>
+              <td>€ 15</td>
+            </tr>
+            <tr>
+              <th>Beard Trim & Neckline Shave</th>
+              <td>€ 20</td>
+            </tr>
+            <tr>
+              <th>Custom Beard Style</th>
+              <td>€ 20</td>
+            </tr>
+            <tr>
+              <th>Head Shave</th>
+              <td>€ 20</td>
+            </tr>
+            <tr>
+              <th>Face Shave</th>
+              <td>€ 10</td>
+            </tr>
+            <tr>
+              <th>Full Shave</th>
+              <td>€ 28</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- form section -->
+      <section class="appoitment-container detail-service-container">
+        <div id="appoitment"></div>
+        <div class="grunge-border left"></div>
+        <div class="grunge-border right"></div>
+        <div class="form-container">
+          <form action="https://formdump.codeinstitute.net/" method="POST" class="appoitment-form">
+            <h2>Book appointment</h2>
+
+            <div class="data">
+              <div>
+                <div class="input-block personal-info">
+                  <input
+                    type="text"
+                    id="f_name"
+                    name="f_name"
+                    placeholder="First Name"
+                    required
+                 >
+                  <label for="f_name">First Name</label>
+                </div>
+
+                <div class="input-block personal-info">
+                  <input
+                    type="text"
+                    id="l_name"
+                    name="l_name"
+                    placeholder="Last Name"
+                    required
+                 >
+                  <label for="l_name">Last Name</label>
+                </div>
+              </div>
+
+              <div>
+                <div class="input-block personal-info">
+                  <input
+                    type="number"
+                    id="p_number"
+                    name="p_number"
+                    placeholder="Phone Number"
+                 >
+                  <label for="p_number">Phone Number</label>
+                </div>
+
+                <div class="input-block personal-info">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                 >
+                  <label for="email">Email</label>
+                </div>
+              </div>
+
+              <div>
+                <div class="input-block datetime">
+                  <label for="date">Date</label>
+                  <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="input-block datetime">
+                  <label for="time">Time</label>
+                  <input type="time" id="time" name="time" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="service-selection-container">
+              <h3>Select a service</h3>
+
+              <div class="service-selection-wraper">
+                <div class="checkbox-field">
+                  <input type="checkbox" id="haircut-checkbox" name="haircut">
+                  <label for="haircut-checkbox">
+                    <img src="assets/images/hair-icon.png" alt="hair icon">
+                    <span>Haircut</span>
+                  </label>
+                </div>
+
+                <div class="checkbox-field">
+                  <input
+                    type="checkbox"
+                    id="beard-trim-checkbox"
+                    name="beard-trim"
+                 >
+                  <label for="beard-trim-checkbox">
+                    <img src="assets/images/beard-icon.png" alt="beard icon">
+                    <span>Beard Trim</span>
+                  </label>
+                </div>
+
+                <div class="checkbox-field">
+                  <input type="checkbox" id="shave-checkbox" name="shave">
+                  <label for="shave-checkbox">
+                    <img src="assets/images/razor-icon.png" alt="razor icon">
+                    <span>Shave</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="submit-button">
+              <input type="submit" value="COMPLETE">
+            </div>
+          </form>
+        </div>
+
+        <!-- form section picture -->
+        <div class="picture-container">
+          <img
+            src="assets/images/pexels-lisa-fotios.webp"
+            alt="barber's workspace equipped with a chair, a shelf with creams, two flowerpots near the window"
+         >
+        </div>
+      </section>
+
+      <!-- map -->
+      <div class="map-wraper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8798257918265!2d-6.257384079511361!3d53.3405581824068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e992e3291a3%3A0x5cd11f005ad837c!2sSt%20Stephen&#39;s%20Green!5e0!3m2!1sen!2sie!4v1669653344098!5m2!1sen!2sie"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-    </section>
-
-    <!-- form section -->
-    <section class="appoitment-container detail-service-container">
-      <div id="appoitment"></div>
-      <div class="grunge-border left"></div>
-      <div class="grunge-border right"></div>
-      <div class="form-container">
-        <form action="https://formdump.codeinstitute.net/" method="POST" class="appoitment-form">
-          <h2>Book appointment</h2>
-
-          <div class="data">
-            <div>
-              <div class="input-block personal-info">
-                <input
-                  type="text"
-                  id="f_name"
-                  name="f_name"
-                  placeholder="First Name"
-                  required
-               >
-                <label for="f_name">First Name</label>
-              </div>
-
-              <div class="input-block personal-info">
-                <input
-                  type="text"
-                  id="l_name"
-                  name="l_name"
-                  placeholder="Last Name"
-                  required
-               >
-                <label for="l_name">Last Name</label>
-              </div>
-            </div>
-
-            <div>
-              <div class="input-block personal-info">
-                <input
-                  type="number"
-                  id="p_number"
-                  name="p_number"
-                  placeholder="Phone Number"
-               >
-                <label for="p_number">Phone Number</label>
-              </div>
-
-              <div class="input-block personal-info">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-               >
-                <label for="email">Email</label>
-              </div>
-            </div>
-
-            <div>
-              <div class="input-block datetime">
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date" required>
-              </div>
-
-              <div class="input-block datetime">
-                <label for="time">Time</label>
-                <input type="time" id="time" name="time" required>
-              </div>
-            </div>
-          </div>
-
-          <div class="service-selection-container">
-            <h3>Select a service</h3>
-
-            <div class="service-selection-wraper">
-              <div class="checkbox-field">
-                <input type="checkbox" id="haircut-checkbox" name="haircut">
-                <label for="haircut-checkbox">
-                  <img src="assets/images/hair-icon.png" alt="hair icon">
-                  <span>Haircut</span>
-                </label>
-              </div>
-
-              <div class="checkbox-field">
-                <input
-                  type="checkbox"
-                  id="beard-trim-checkbox"
-                  name="beard-trim"
-               >
-                <label for="beard-trim-checkbox">
-                  <img src="assets/images/beard-icon.png" alt="beard icon">
-                  <span>Beard Trim</span>
-                </label>
-              </div>
-
-              <div class="checkbox-field">
-                <input type="checkbox" id="shave-checkbox" name="shave">
-                <label for="shave-checkbox">
-                  <img src="assets/images/razor-icon.png" alt="razor icon">
-                  <span>Shave</span>
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div class="submit-button">
-            <input type="submit" value="COMPLETE">
-          </div>
-        </form>
-      </div>
-
-      <div class="picture-container">
-        <img
-          src="assets/images/pexels-lisa-fotios.webp"
-          alt="barber's workspace equipped with a chair, a shelf with creams, two flowerpots near the window"
-       >
-      </div>
-    </section>
-
-    <!-- map -->
-    <div class="map-wraper">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8798257918265!2d-6.257384079511361!3d53.3405581824068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e992e3291a3%3A0x5cd11f005ad837c!2sSt%20Stephen&#39;s%20Green!5e0!3m2!1sen!2sie!4v1669653344098!5m2!1sen!2sie"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
+    </main>
 
     <!-- footer -->
     <footer>

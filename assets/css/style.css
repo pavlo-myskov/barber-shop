@@ -938,7 +938,7 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
-  .services-content > div {
+  .services-content > section {
     width: 10rem;
     padding: 20px 0px 5px;
   }
