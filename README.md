@@ -12,18 +12,19 @@ The website provides users with information about barbershop services and their 
   - [User Goals](#user-goals)
 - [**User Experience UX**](#user-experience-ux)
   - [Wireframes](#wireframes)
-  - [Site Structure](#site-structure)
   - [Design Choices](#design-choices)
+    - [Site Structure](#site-structure)
     - [Typography](#typography)
     - [Color Scheme](#color-scheme)
     - [Images](#images)
 - [**Features**](#features)
+  - [Common](#common)
+    - [NavBar](#navigation-bar)
+    - [Footer](#footer)
   - [Home Page](#home-page)
     - [Header](#header)
-    - [NavBar](#navigation-bar)
     - [Services](#services)
     - [Detail Services](#detail-services)
-    - [Footer](#footer)
   - [BookNow Page](#booknow-page)
     - [Price List](#price-list)
     - [Book appoitment](#book-appointment)
@@ -62,19 +63,21 @@ The Barbershop Website was designed based on wireframes produced in [Balsamiq](h
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![Index page wireframe](documentation/wireframes/wireframe-index.png) | ![Booking page wireframe](documentation/wireframes/wireframe-booking.png) |
 
-### Site Structure
 
-The Barbershop site has three pages with a clear and semantic structure, the information is well organized, every element is easy to find. The consistency and similarity of the structure is manifested on all pages and sections of the site and covers interactivity. The main menu is designed with intuitive and familiar navigation which includes the barbershop logo on the left side, the navigation links in the center and the book now link on the right side.
 
 ### Design Choices
 
 The website is designed in such a way as to interest the user, give useful information about the services and increase the chances of visiting the Barbershop. The appearance and UI design is quite user-friendly, stylish and responsive. The website design meets accessibility requirements including sufficient contrast between background and foreground colours, non-text elements have planned alt text equivalents to cater for the visually impaired.
+The site is designed to be familiar and intuitive to the user. The design was chosen to evoke warm emotion in the user. When a user chooses a good barbershop, he is looking not only for a service, but also for an establishment where he will feel safe and comfortable.
+
+- #### Site Structure
+  The Barbershop site has three pages with a clear and semantic structure, the information is well organized, every element is easy to find. The consistency and similarity of the structure is manifested on all pages and sections of the site and covers interactivity. The main menu is designed with intuitive and familiar navigation which includes the barbershop logo on the left side, the navigation links in the center and the book now link on the right side.
 
 - #### Typography
   The main website font is a geometric slab-serif typeface family _Arvo_ and it's fallback font is _Serif_. The flavour of the font is rather mixed, being nearly monolinear to increase legibility.
   The font implemented on the website using [Google Fonts API](https://fonts.google.com). Heading weights are bold(700) and body text is regular(400).
 - #### Color Scheme
-  The colour scheme based on whitesmoke, warm yellow and brown tones and matches the images on the page.
+  The colour scheme based on whitesmoke, warm yellow and brown tones and matches the images on the page. Warm colors have long wavelengths and radiate a considerable amount of energy. That's why they are chosed as accent colors. The site must inspire confidence in the user who is going to put his style in other hands.The warm colors blend perfectly with the light moody style of the images and were chosen to evoke that sense of calm and comfort in the guest.
 
 ![Color palette](documentation/supp-images/palette.png)
 
@@ -92,6 +95,23 @@ The Barbershop website is designed to strictly adhere to accessibility guideline
 Any interaction causes a positive response to the user through the semantic structured information, colors, clear and unambiguous navigation structures.
 All external links open in another tab and use the noopener attributes to prevent external pages from being manipulated.
 
+### Common
+  - #### Navigation Bar
+    The navbar was implemented so that the user had the opportunity to go to the booking form at any time. The BookNow link differs in color from the main menu links to be in focus and on the right side because Website users instinctively have greater trust for content on the right-hand side. Also it includes logo on the left side, the navigation links(home, price and gallery) in the center. The background of each menu link is a brush stroke designed in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using a painting brush.
+    The navbar is sticky for mobile devices since there the page becomes much larger vertically, so that the user always has a Main menu and BookNow links in sight. The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens. Only the central part of the menu is hidden in the toggle at lower screen resolutions. The sticky menu is implemented in such a way that the "Book now" button is always visible to users, and they can make an appointment at any time without returning to the very top of the page. The hamburger menu button is stylized with a linear gradient and changes when you click or hover over it. On small screens the hamburger menu button is placed on the right side and the BookNow link in the center for comfortable access to the user.
+
+|                       **Full NavBar**                        |                           **Mobile Navbar**                           |
+| :----------------------------------------------------------: | :-------------------------------------------------------------------: |
+| ![NavBar on Desktop](documentation/features/full-navbar.png) | ![Navigation Bar on Mobile](documentation/features/mobile-navbar.png) |
+|                      **Sticky NavBar**                       |                          **Dropdown NavBar**                          |
+|  ![Sticky NavBar](documentation/features/sticky-navbar.png)  |    ![Dropdown Navbar](documentation/features/dropdown-navbar.png)     |
+
+- #### Footer
+  The footer is valuable to the user as it includes three blocks of useful info. This is address and phone number of the barbershop, opening times and links to the relevant social media sites.
+  The footer section is also fully responsive and on smaller devices the info blocks stack one on top of the other.
+
+![Footer](documentation/features/footer.png)
+
 ### Home Page
 
 - #### Header
@@ -99,15 +119,6 @@ All external links open in another tab and use the noopener attributes to preven
 
 ![Header section](documentation/features/header.png)
 
-- #### Navigation Bar
-  The navbar is sticky, fully responsive and changes to a toggler (hamburger menu) on smaller screens. It includes logo on the left side, the navigation links(home, price and gallery) in the center and the book now link on the right side. The background of each menu item is a brush stroke created in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using a painting brush.
-  Only the central part of the menu is hidden in the toggle at lower screen resolutions. The sticky menu is implemented in such a way that the "Book now" button is always visible to users, and they can make an appointment at any time without returning to the very top of the page.
-
-|                       **Full NavBar**                        |                           **Mobile Navbar**                           |
-| :----------------------------------------------------------: | :-------------------------------------------------------------------: |
-| ![NavBar on Desktop](documentation/features/full-navbar.png) | ![Navigation Bar on Mobile](documentation/features/mobile-navbar.png) |
-|                      **Sticky NavBar**                       |                          **Dropdown NavBar**                          |
-|  ![Sticky NavBar](documentation/features/sticky-navbar.png)  |    ![Dropdown Navbar](documentation/features/dropdown-navbar.png)     |
 
 - #### Services
   This section presents three lists of services provided by the barbershop. Icons were used to attract the users eyes and allow them to quickly understand what type of service was being offered. On the big screen, the lists are arranged horizontally in 3 columns. On smaller devices, the services stack one on top of the other.
@@ -124,12 +135,6 @@ Desktop|Mobile
 Desktop|Mobile
 :-:|:-:
 ![Services Desktop](documentation/features/detail-service-desktop.png)|![Services Mobile](documentation/features/detail-service-mobile.png)
-
-- #### Footer
-  The footer is valuable to the user as it includes three blocks of useful info. This is address and phone number of the barbershop, opening times and links to the relevant social media sites.
-  The footer section is also fully responsive and on smaller devices the info blocks stack one on top of the other.
-
-![Footer](documentation/features/footer.png)
 
 ### BookNow Page
 
