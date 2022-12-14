@@ -427,6 +427,13 @@ footer a:hover {
 
 /* APPOITMENT SECTION*/
 
+/* booknow anchor */
+#appoitment {
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+}
+
 /* container */
 .appoitment-container {
   background-color: #e8e5e2;
@@ -914,6 +921,11 @@ footer a:hover {
     position: sticky;
     top: 0;
     z-index: 9;
+  }
+
+  /* booknow anchor */
+  #appoitment {
+    top: -65px;
   }
 
   /* service area */
