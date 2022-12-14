@@ -79,9 +79,10 @@ The website is designed in such a way as to interest the user, give useful infor
 ![Color palette](documentation/supp-images/palette.png)
 
 - #### Images
-  Grunge borders, brush-stroke and logo were created in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using paint brushes and other tools.
+  [Grunge borders](assets/images/grunge-border.png), [brush-stroke](assets/images/brush-stroke.png), [Logo](assets/images/logo.png) and [Favicon](assets/images/favicon.ico) were designed in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using paint brushes and other tools.
   All photos used in the project were downloaded from sources with a free license and do not require attribution. The images were colored and resized in [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) for a light moody style.
   All images were compressed using [IloveIMG](https://www.iloveimg.com/) online service to optimize site loading.
+  [Favicon](assets/images/favicon.ico) was designed in [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) using [Uxwing](https://uxwing.com) icons and than it was resized and converted to *.ico* format using [Online Favicon Generator](https://www.favicon-generator.org/).
 
 [Back to top](#table-of-contents)
 
