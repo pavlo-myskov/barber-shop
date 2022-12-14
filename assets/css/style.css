@@ -62,7 +62,7 @@ h2 {
   overflow: visible;
 }
 
-/* HEADER */
+/* Home page HEADER */
 .main-header {
   position: relative;
   height: 70vh;
@@ -156,7 +156,7 @@ h2 {
   color: #e8c77f;
 }
 
-/* book now */
+/* book now link */
 #book-now a {
   font-size: 1.2rem;
   color: #c9613b;
@@ -168,9 +168,9 @@ h2 {
   color: #f87d51;
 }
 
-/* SERVICES */
+/* SERVICES section */
 
-/* service container */
+/* container of service section*/
 .services-container {
   position: relative;
   color: whitesmoke;
@@ -201,7 +201,7 @@ h2 {
   position: relative;
 }
 
-/* service header */
+/* header of service section*/
 #stroke {
   align-self: center;
   content: url(../images/stroke.png);
@@ -210,7 +210,7 @@ h2 {
   height: 10px;
 }
 
-/* service content */
+/* content of service section */
 .services-content {
   display: flex;
   justify-content: space-around;
@@ -218,14 +218,14 @@ h2 {
   margin: 0 2rem;
 }
 
-/* list headers */
+/* header of lists of service section */
 .services-content img {
   width: 2rem;
   height: auto;
   margin-bottom: 1rem;
 }
 
-/* servise lists */
+/* lists of service section*/
 .services-content ul {
   font-weight: 400;
   color: #ffffff;
@@ -234,7 +234,7 @@ h2 {
   list-style-type: none;
 }
 
-/* DETAIL SERVICE */
+/* DETAIL-SERVICE section */
 
 .detail-service-container {
   max-width: 1200px;
@@ -249,7 +249,7 @@ h2 {
   background-color: #e8e5e2;
 }
 
-/* picture */
+/* pictures of detail-service section*/
 .service-pic {
   background-size: cover;
   background-repeat: no-repeat;
@@ -274,7 +274,7 @@ h2 {
   background-position-y: -10rem;
 }
 
-/* text */
+/* text of detail-service section */
 .service-text {
   width: 50%;
   padding: 0 30px;
@@ -375,9 +375,9 @@ footer a:hover {
   padding: 0 40px;
 }
 
-/* ----- BOOK NOW ----- */
+/* ----- BOOKING PAGE ----- */
 
-/* PRICE */
+/* PRICE section */
 .services-container.price-container::before {
   background-image: url(../images/pexels-gonzalo-guzman.webp);
   background-position: center bottom;
@@ -434,7 +434,7 @@ footer a:hover {
   top: 0;
 }
 
-/* container */
+/* section container */
 .appoitment-container {
   background-color: #e8e5e2;
   display: flex;
@@ -474,7 +474,7 @@ footer a:hover {
   font-size: 1.2em;
 }
 
-/* main data block */
+/* block of form main data */
 .input-block {
   position: relative;
   display: flex;
@@ -543,7 +543,7 @@ footer a:hover {
   border-radius: 6px;
 }
 
-/* service selection */
+/* service selection block */
 .service-selection-container {
   padding: 1.8em 2em 0;
 }
@@ -614,7 +614,7 @@ footer a:hover {
 }
 
 
-/* MAP */
+/* MAP section */
 .map-wraper {
   filter: grayscale(40%) contrast(0.9);
   height: 300px;
@@ -627,7 +627,7 @@ footer a:hover {
 }
 
 
-/* GALLERY */
+/* GALLERY PAGE */
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -654,7 +654,7 @@ footer a:hover {
   grid-column: span 1;
 }
 
-/* image caption */
+/* gallery image captions */
 .gallery-container figure{
   position: relative;
   overflow: hidden;
@@ -687,7 +687,7 @@ footer a:hover {
 /* For large screens sizes from 1200px wide and UP */
 @media screen and (min-width: 1200px) {
   /* SIDE GRUNGE Border */
-  /* detail service grunge border */
+  /* detail-service section grunge border */
   .detail-service-container .grunge-border {
     top: 730px;
     width: 1500px;
@@ -701,7 +701,7 @@ footer a:hover {
     transform: rotate(-90deg);
   }
 
-  /* appoitment grunge border */
+  /* appoitment section grunge border */
   .appoitment-container .grunge-border {
     top: 370px;
     width: 780px;
@@ -721,7 +721,7 @@ footer a:hover {
 
 /* For large screens sizes from 1200px wide and DOWN */
 @media screen and (max-width: 1200px) {
-  /* detail service pictures */
+  /* detail-service section pictures */
     .haircut-pic, .beard-pic, .shave-pic {
     background-position: center;
   }
@@ -729,7 +729,7 @@ footer a:hover {
     display: none;
   }
 
-  /* table width */
+  /* price table width */
   .price table {
     margin: 0 3rem;
   }
@@ -737,7 +737,7 @@ footer a:hover {
 
 /* For screens sizes from 1050px wide and down */
 @media screen and (max-width: 1050px) {
-  /* table width */
+  /* price table width */
   .price table {
     margin: 0 2rem;
   }
@@ -756,7 +756,7 @@ footer a:hover {
     padding-bottom: 3em;
   }
 
-  /* gallery */
+  /* gallery page */
   .gallery-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -772,6 +772,7 @@ footer a:hover {
 
 /* For screens sizes from 900px wide and UP */
 @media screen and (min-width: 900px) {
+  /* detail-service section text */
   .service-text p {
     line-height: 160%;
   }
@@ -856,7 +857,7 @@ footer a:hover {
     left: 0;
   }
 
-  /* services */
+  /* services section */
   #stroke {
     width: 150px;
   }
@@ -883,12 +884,12 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
-  /* width */
+  /* price table width */
   .services-content.price {
     margin: 0 3rem;
   }
 
-  /* column padding */
+  /* price table column padding */
   .price table:first-child {
     margin-bottom: 3rem;
   }
@@ -945,7 +946,7 @@ footer a:hover {
     border-bottom: #aa7339 3px groove;
   }
 
-  /* deatail services */
+  /* deatail-services section*/
   .detail-service-container .service-wraper {
     display: flex;
     flex-direction: column;
@@ -967,7 +968,7 @@ footer a:hover {
     line-height: 30px;
   }
 
-  /* gallery */
+  /* gallery page*/
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1032,7 +1033,7 @@ footer a:hover {
     display: none;
   }
 
-  /* detail services */
+  /* detail-services section*/
   .service-text h3 {
     padding: 0 20px 10px;
   }
